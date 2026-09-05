@@ -1,0 +1,36 @@
+OpenSTA 3.1.0  Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+mac24_reference_classic: worst arrival 7520.0 ps at y[49], area 34211.56 um2
+mac24_reference_default: worst arrival 15790.0 ps at y[49], area 21337.96 um2
+mul24_mac_arrival_dadda_brentkung_mux_classic: worst arrival 5640.0 ps at y[49], area 30678.17 um2
+mul24_mac_arrival_dadda_brentkung_mux_default: worst arrival 12270.0 ps at y[63], area 19658.85 um2
+mul24_mac_arrival_dadda_brentkung_xormaj_classic: worst arrival 6320.0 ps at y[49], area 38042.74 um2
+mul24_mac_arrival_dadda_brentkung_xormaj_default: worst arrival 15550.0 ps at y[49], area 19811.50 um2
+mul24_mac_arrival_dadda_koggestone_mux_classic: worst arrival 6420.0 ps at y[49], area 33346.98 um2
+mul24_mac_arrival_dadda_koggestone_mux_default: worst arrival 8030.0 ps at y[60], area 21127.76 um2
+mul24_mac_arrival_dadda_koggestone_xormaj_classic: worst arrival 5810.0 ps at y[49], area 42320.59 um2
+mul24_mac_arrival_dadda_koggestone_xormaj_default: worst arrival 9660.0 ps at y[49], area 21934.79 um2
+mul24_mac_arrival_dadda_sklansky_mux_classic: worst arrival 6450.0 ps at y[49], area 30619.37 um2
+mul24_mac_arrival_dadda_sklansky_mux_default: worst arrival 10340.0 ps at y[50], area 19768.96 um2
+mul24_mac_arrival_dadda_sklansky_xormaj_classic: worst arrival 5990.0 ps at y[49], area 38635.80 um2
+mul24_mac_arrival_dadda_sklansky_xormaj_default: worst arrival 14920.0 ps at y[55], area 19875.31 um2
+mul24_mac_arrival_fullnoha_brentkung_mux_classic: worst arrival 7300.0 ps at y[49], area 23867.89 um2
+mul24_mac_arrival_fullnoha_brentkung_mux_default: worst arrival 11860.0 ps at y[52], area 19611.31 um2
+mul24_mac_arrival_fullnoha_brentkung_xormaj_classic: worst arrival 7320.0 ps at y[49], area 25575.78 um2
+mul24_mac_arrival_fullnoha_brentkung_xormaj_default: worst arrival 12110.0 ps at y[46], area 20111.79 um2
+mul24_mac_arrival_fullnoha_koggestone_mux_classic: worst arrival 7120.0 ps at y[49], area 25131.60 um2
+mul24_mac_arrival_fullnoha_koggestone_mux_default: worst arrival 10760.0 ps at y[50], area 19976.66 um2
+mul24_mac_arrival_fullnoha_koggestone_xormaj_classic: worst arrival 7320.0 ps at y[49], area 26531.70 um2
+mul24_mac_arrival_fullnoha_koggestone_xormaj_default: worst arrival 12100.0 ps at y[54], area 20545.96 um2
+mul24_mac_arrival_fullnoha_sklansky_mux_classic: worst arrival 7680.0 ps at y[49], area 24168.18 um2
+mul24_mac_arrival_fullnoha_sklansky_mux_default: worst arrival 10640.0 ps at y[55], area 19834.02 um2
+mul24_mac_arrival_fullnoha_sklansky_xormaj_classic: worst arrival 7610.0 ps at y[49], area 25762.21 um2
+mul24_mac_arrival_fullnoha_sklansky_xormaj_default: worst arrival 15510.0 ps at y[49], area 20153.08 um2
+mul24_mac_replay_candidate_classic: worst arrival 6640.0 ps at y[49], area 30415.42 um2
+mul24_mac_replay_candidate_default: worst arrival 10140.0 ps at y[57], area 19884.07 um2
+mul24_mac_replay_norules_classic: worst arrival 6220.0 ps at y[49], area 31949.39 um2
+mul24_mac_replay_norules_default: worst arrival 11250.0 ps at y[49], area 19653.85 um2

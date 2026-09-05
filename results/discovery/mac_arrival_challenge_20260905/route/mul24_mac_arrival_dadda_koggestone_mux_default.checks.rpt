@@ -1,0 +1,48 @@
+Startpoint: b[1] (input port)
+Endpoint: y[74] (output port)
+Path Group: path delay
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ input external delay
+   0.00    0.00 ^ b[1] (in)
+   0.09    0.09 v _4257_/Y (sky130_fd_sc_hd__nand2_1)
+   0.42    0.51 v _4258_/X (sky130_fd_sc_hd__maj3_1)
+   0.42    0.94 v _4294_/X (sky130_fd_sc_hd__xor3_1)
+   0.42    1.36 v _4296_/X (sky130_fd_sc_hd__maj3_1)
+   0.41    1.77 v _4298_/X (sky130_fd_sc_hd__maj3_1)
+   0.24    2.01 ^ _4301_/X (sky130_fd_sc_hd__xor2_1)
+   0.26    2.27 ^ _4305_/X (sky130_fd_sc_hd__xor2_1)
+   0.16    2.43 v _4338_/Y (sky130_fd_sc_hd__nor2_1)
+   0.40    2.82 v _5400_/X (sky130_fd_sc_hd__or3b_1)
+   0.33    3.15 ^ _5402_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.21    3.36 v _5404_/Y (sky130_fd_sc_hd__a31oi_1)
+   0.32    3.68 v _5407_/X (sky130_fd_sc_hd__o31a_1)
+   0.45    4.13 ^ _5410_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.20    4.33 v _5414_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.36    4.69 ^ _5417_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.21    4.90 v _5420_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.39    5.29 v _5422_/X (sky130_fd_sc_hd__o311a_1)
+   0.23    5.52 v _5425_/Y (sky130_fd_sc_hd__a2bb2oi_1)
+   0.54    6.05 ^ _5430_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.34    6.39 ^ _5437_/X (sky130_fd_sc_hd__a31o_1)
+   0.14    6.53 v _5439_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.39    6.92 ^ _5442_/Y (sky130_fd_sc_hd__nor3b_1)
+   0.12    7.04 v _5446_/Y (sky130_fd_sc_hd__nor2_1)
+   0.21    7.25 v _5447_/X (sky130_fd_sc_hd__xor2_1)
+   3.04   10.29 ^ _5457_/Y (sky130_fd_sc_hd__nor4b_1)
+   1.55   11.85 v _5566_/Y (sky130_fd_sc_hd__nand3_1)
+   0.00   11.85 v y[74] (out)
+          11.85   data arrival time
+
+  10.00   10.00   max_delay
+   0.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+         -11.85   data arrival time
+---------------------------------------------------------
+          -1.85   slack (VIOLATED)
+
+

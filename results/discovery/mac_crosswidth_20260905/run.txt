@@ -1,0 +1,13 @@
+contract=unsigned_mac_requant
+outputs=accumulator,result,saturated,status
+one_genome=true
+one_circuit=true
+accumulator_fusion=true
+selection=map_elites
+objectives=depth,gates,topology_diversity;physical_mapping_deferred
+verification=exhaustive_w4,sampled_w8_w16
+seed=1835098964
+generations=3000
+archive_elites=2187
+physical_tournament_elites=128
+elapsed_seconds=87.148

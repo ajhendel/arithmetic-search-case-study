@@ -1,0 +1,23 @@
+{
+  "base_commit": "a1c9c7d88fafc1319a6131eca10f38746fe52680",
+  "upstream": "https://github.com/MIRALab-USTC/Arith-DAS",
+  "upstream_commit": "5b19ba12cb587e173606d432f3d3b7046c03ad85",
+  "upstream_sha256": "f5259c7a11097bca468f8031534e42676cf4412a4bfce740929a16003cc33bbf",
+  "design": "W24 unsigned product plus full W48 accumulator; 75 live outputs",
+  "optimization": "upstream UFO-MAC allocation, stage-assignment ILP then pin-delay interconnection ILP; selected methods loaded unchanged via AST",
+  "solver": "HiGHS one thread; assignment 60s, each of two pin-profile routers 90s; feasible integer incumbents accepted with status retained",
+  "profile": "standalone mux and XorMaj FA and HA mapped under default recipe; 0.05ns input slew and 0.01pF output load; upstream zero initial PP/acc arrivals retained",
+  "planned_comparators": "two optimized interconnections (mux/XorMaj timing) each with Sklansky/BrentKung/KoggeStone CPA; exact existing root plan; two mapping recipes; route all 12 forms if generation succeeds",
+  "failure_policy": "record bounded failures; do not treat no incumbent as a loss; no extra optimizer restarts",
+  "resource_limits": {
+    "concurrent_jobs": 1,
+    "solver_threads": 1,
+    "yosys_abc_threads": 1,
+    "container_cpus": 2,
+    "openroad_threads": 2,
+    "cargo_build_jobs": 2
+  },
+  "image_id": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "flow_sha256": "845fb4cb0341acf144d5bc9b31657446b3ea62a3637577d6944ac7f8f2badfc8"
+}

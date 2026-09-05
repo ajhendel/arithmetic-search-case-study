@@ -1,0 +1,13 @@
+{
+  "model": "ufomac_router_TinyBoundedHiGHS_49",
+  "elapsed_seconds": 90.41021883289795,
+  "status": "Optimal",
+  "solution_status": "Solution Found",
+  "objective": 2.9469430000000036,
+  "variables": 16845,
+  "constraints": 33490,
+  "threads": 1,
+  "mip_gap": 0.6234693032090736,
+  "mip_dual_bound": 1.1096145011931444,
+  "validated_feasible": true
+}

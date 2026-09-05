@@ -1,0 +1,1 @@
+cec -T 20 gold.aig gate.aig

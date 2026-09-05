@@ -1,0 +1,7 @@
+{
+  "/Users/andrewhendel/CascadeProjects/tinytapeout2/scripts/compare_mac_ufomac.py": "03f6023b4377a80c08de1e463f4c109e94b41ba3cc7aa58f48ab7e6d80c78822",
+  "src/mac.rs": "5980db760753d6b54785a9ca7bbf2a9e7a23c4e6c49ff33248a9221f149f7f18",
+  "src/mac_import.rs": "b4c605b78386c7cd686199a6f0939733ee76dc0b4307f5a19cee5ddce4c69024",
+  "examples/mac_import_ufomac.rs": "570b0a1437f628c72383a1cd1213ef0548b087c570fab16835ccf8f4b547aeec",
+  "results/discovery/mac_ufomac_challenge_20260905/optimized_graph.json": "031782951163efb78bb2614950c421ce7e2b6868b1ed6c5538a7895c0dc1aa07"
+}

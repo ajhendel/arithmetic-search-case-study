@@ -1,0 +1,154 @@
+OpenROAD 26Q3-1860-g0b54bb3203 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO ODB-0227] LEF file: /OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+[INFO IFP-0107] Defining die area using utilization: 45.00% and aspect ratio: 1.
+[WARNING IFP-0028] Core area lower left (5.000, 5.000) snapped to (5.060, 5.440).
+[INFO IFP-0001] Added 77 rows of 459 site unithd.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 221.405 221.405 ) um
+[INFO IFP-0101] Core BBox: (  5.060  5.440 ) ( 216.200 214.880 ) um
+[INFO IFP-0102] Core area:                        44221.162 um^2
+[INFO IFP-0103] Total instances area:             20111.789 um^2
+[INFO IFP-0104] Effective utilization:                0.455
+[INFO IFP-0105] Number of instances:                   3199
+Found 0 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0001] Number of available slots 796
+[INFO PPL-0002] Number of I/O             171
+[INFO PPL-0003] Number of I/O w/sink      171
+[INFO PPL-0004] Number of I/O w/o sink    0
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 27777.05 um.
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.060  5.440 ) ( 216.200 214.880 ) um
+[INFO GPL-0016] Core area:                   44221.162 um^2
+[INFO GPL-0036] Movable instances area:      20111.789 um^2
+[INFO GPL-0037] Total instances area:        20111.789 um^2
+[INFO GPL-0035] Pin density area adjust:      2367.836 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:              3199
+[INFO GPL-0007] Movable instances:                3199
+[INFO GPL-0008] Fixed instances:                     0
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                   5349
+[INFO GPL-0011] Number of pins:                  11351
+[INFO GPL-0012] Die BBox:       (  0.000  0.000 ) ( 221.405 221.405 ) um
+[INFO GPL-0013] Placement BBox: (  5.060  5.440 ) ( 216.200 214.880 ) um
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                 44221.162 um^2
+[INFO GPL-0017] Fixed instances area:            0.000 um^2
+[INFO GPL-0018] Movable instances area:      22479.625 um^2
+[INFO GPL-0019] Utilization:                    50.835 %
+[INFO GPL-0020] Standard cells area:         22479.625 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 3199	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.00007646 HPWL: 39814430
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00000460 HPWL: 33946539
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00000011 HPWL: 31541014
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00000010 HPWL: 31423027
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00000010 HPWL: 31304490
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.5500
+[INFO GPL-0024] Movable insts average area:      7.027 um^2
+[INFO GPL-0025] Ideal bin area:                 12.777 um^2
+[INFO GPL-0026] Ideal bin count:                  3461
+[INFO GPL-0027] Total bin area:              44221.162 um^2
+[INFO GPL-0028] Bin count (X, Y):          32 ,     32
+[INFO GPL-0029] Bin size (W * H):       6.598 *  6.545 um
+[INFO GPL-0030] Number of bins:                   1024
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9738 |  1.757000e+04 |   +0.00% |  1.29e-15 |      
+       10 |   0.9313 |  2.241927e+04 |  +27.60% |  2.10e-15 |      
+       20 |   0.9227 |  2.377028e+04 |   +6.03% |  3.42e-15 |      
+       30 |   0.9189 |  2.398874e+04 |   +0.92% |  5.57e-15 |      
+       40 |   0.9192 |  2.370747e+04 |   -1.17% |  9.07e-15 |      
+       50 |   0.9189 |  2.361182e+04 |   -0.40% |  1.48e-14 |      
+       60 |   0.9188 |  2.366342e+04 |   +0.22% |  2.41e-14 |      
+       70 |   0.9183 |  2.368254e+04 |   +0.08% |  3.92e-14 |      
+       80 |   0.9178 |  2.364285e+04 |   -0.17% |  6.39e-14 |      
+       90 |   0.9175 |  2.363700e+04 |   -0.02% |  1.04e-13 |      
+      100 |   0.9173 |  2.368418e+04 |   +0.20% |  1.69e-13 |      
+      110 |   0.9171 |  2.373202e+04 |   +0.20% |  2.76e-13 |      
+      120 |   0.9170 |  2.378011e+04 |   +0.20% |  4.50e-13 |      
+      130 |   0.9166 |  2.388381e+04 |   +0.44% |  7.32e-13 |      
+      140 |   0.9154 |  2.408731e+04 |   +0.85% |  1.19e-12 |      
+      150 |   0.9131 |  2.442326e+04 |   +1.39% |  1.94e-12 |      
+      160 |   0.9098 |  2.494393e+04 |   +2.13% |  3.17e-12 |      
+      170 |   0.9032 |  2.571998e+04 |   +3.11% |  5.16e-12 |      
+      180 |   0.8943 |  2.684036e+04 |   +4.36% |  8.40e-12 |      
+      190 |   0.8821 |  2.829370e+04 |   +5.41% |  1.37e-11 |      
+      200 |   0.8684 |  3.011254e+04 |   +6.43% |  2.23e-11 |      
+      210 |   0.8483 |  3.236836e+04 |   +7.49% |  3.63e-11 |      
+      220 |   0.8267 |  3.503989e+04 |   +8.25% |  5.91e-11 |      
+      230 |   0.7977 |  3.802142e+04 |   +8.51% |  9.62e-11 |      
+      240 |   0.7614 |  4.116660e+04 |   +8.27% |  1.57e-10 |      
+      250 |   0.7220 |  4.419971e+04 |   +7.37% |  2.55e-10 |      
+      260 |   0.6798 |  4.693091e+04 |   +6.18% |  4.15e-10 |      
+      270 |   0.6361 |  4.911225e+04 |   +4.65% |  6.76e-10 |      
+      280 |   0.5874 |  5.051259e+04 |   +2.85% |  1.10e-09 |      
+      290 |   0.5356 |  5.080219e+04 |   +0.57% |  1.79e-09 |      
+      300 |   0.4907 |  5.075934e+04 |   -0.08% |  2.92e-09 |      
+      310 |   0.4420 |  5.146805e+04 |   +1.40% |  4.76e-09 |      
+      320 |   0.4044 |  5.215453e+04 |   +1.33% |  7.75e-09 |      
+      330 |   0.3605 |  5.241474e+04 |   +0.50% |  1.26e-08 |      
+      340 |   0.3161 |  5.276630e+04 |   +0.67% |  1.94e-08 |      
+      350 |   0.2841 |  5.328476e+04 |   +0.98% |  2.85e-08 |      
+      360 |   0.2543 |  5.360014e+04 |   +0.59% |  4.20e-08 |      
+      370 |   0.2310 |  5.378895e+04 |   +0.35% |  6.19e-08 |      
+      380 |   0.2042 |  5.397605e+04 |   +0.35% |  9.12e-08 |      
+      390 |   0.1794 |  5.401391e+04 |   +0.07% |  1.34e-07 |      
+      400 |   0.1540 |  5.396870e+04 |   -0.08% |  1.98e-07 |      
+      410 |   0.1310 |  5.404278e+04 |   +0.14% |  2.91e-07 |      
+      420 |   0.1135 |  5.403297e+04 |   -0.02% |  4.29e-07 |      
+      428 |   0.0988 |  5.409407e+04 |          |  6.09e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 428
+[INFO GPL-1002] Placed Cell Area            22479.6247
+[INFO GPL-1003] Available Free Area         44221.1616
+[INFO GPL-1004] Minimum Feasible Density        0.5100 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.5648
+[INFO GPL-1008]     - For 80% usage of free space: 0.6354
+[INFO GPL-1014] Final placement area: 22479.62 (+0.00%)
+[INFO GPL-1018] Final HPWL (um): 54158.24
+[INFO DPL-0006] Core area: 44221.16 um^2
+[INFO DPL-0007] Movable instances area: 20111.79 um^2
+[INFO DPL-0008] Fixed instances area within core: 0.00 um^2
+[INFO DPL-0009] Utilization: 45.5%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 3199 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |       1029 |       329 |       697
+        1 |         10 |         4 |         6
+        2 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 2.
+[INFO DPL-0500] Runtime: 0.13s
+Placement Analysis
+---------------------------------
+total displacement       8952.7 u
+average displacement        2.8 u
+max displacement            9.2 u
+original HPWL           54158.2 u
+legalized HPWL          60923.1 u
+delta HPWL                   12 %
+
+Design area 20112 um^2 45% utilization.

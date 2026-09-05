@@ -1,0 +1,49 @@
+Startpoint: a[13] (input port)
+Endpoint: y[66] (output port)
+Path Group: path delay
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ input external delay
+   0.00    0.00 ^ a[13] (in)
+   0.66    0.66 v _08811_/Y (sky130_fd_sc_hd__clkinv_1)
+   0.63    1.28 ^ _09660_/Y (sky130_fd_sc_hd__o211ai_1)
+   0.27    1.55 v _09733_/Y (sky130_fd_sc_hd__nand3_1)
+   0.34    1.89 ^ _09746_/Y (sky130_fd_sc_hd__nand3_1)
+   0.22    2.11 v _09958_/Y (sky130_fd_sc_hd__nand3_1)
+   0.29    2.40 ^ _10013_/Y (sky130_fd_sc_hd__nand3_1)
+   0.28    2.67 v _10110_/Y (sky130_fd_sc_hd__o211ai_1)
+   0.29    2.97 ^ _10222_/Y (sky130_fd_sc_hd__nand3_1)
+   0.26    3.22 v _10228_/Y (sky130_fd_sc_hd__nand3_1)
+   0.66    3.88 ^ _10229_/Y (sky130_fd_sc_hd__a21boi_0)
+   0.17    4.05 v _10230_/Y (sky130_fd_sc_hd__nor2_1)
+   0.22    4.27 v _10245_/Y (sky130_fd_sc_hd__o21bai_1)
+   0.16    4.42 ^ _10246_/Y (sky130_fd_sc_hd__nand3_1)
+   0.37    4.80 ^ _10264_/Y (sky130_fd_sc_hd__a21boi_0)
+   0.26    5.06 v _10265_/Y (sky130_fd_sc_hd__nand2_1)
+   0.24    5.30 ^ _07560_/Y (sky130_fd_sc_hd__nand4_1)
+   0.18    5.48 v _07611_/Y (sky130_fd_sc_hd__o22ai_1)
+   0.50    5.98 ^ _07614_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.22    6.20 v _07615_/Y (sky130_fd_sc_hd__clkinv_1)
+   0.49    6.69 ^ _07644_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.45    7.14 v _07648_/Y (sky130_fd_sc_hd__nand2_1)
+   0.31    7.45 ^ _07665_/Y (sky130_fd_sc_hd__nand4_1)
+   0.11    7.56 v _08122_/Y (sky130_fd_sc_hd__nor3_1)
+   0.15    7.71 ^ _08123_/Y (sky130_fd_sc_hd__o22ai_1)
+   0.11    7.81 v _08142_/Y (sky130_fd_sc_hd__nand3_1)
+   1.26    9.07 ^ _08179_/Y (sky130_fd_sc_hd__nor2_1)
+   0.68    9.75 v _08220_/Y (sky130_fd_sc_hd__nand4_1)
+   0.00    9.75 v y[66] (out)
+           9.75   data arrival time
+
+  10.00   10.00   max_delay
+   0.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+          -9.75   data arrival time
+---------------------------------------------------------
+           0.25   slack (MET)
+
+

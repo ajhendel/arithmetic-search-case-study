@@ -1,0 +1,5 @@
+module	recipe	worst_arrival_ps	area_um2	hpwl_um
+mul16_mac_requant_evo477_default	default	12040.0	8979	24607.8
+mul16_mac_requant_evo477_norules_default	default	11850.0	8967	24437.3
+mul16_mac_requant_evo477_classic	classic	7390.0	13801	47066.9
+mul16_mac_requant_evo477_norules_classic	classic	8040.0	14104	48204.3

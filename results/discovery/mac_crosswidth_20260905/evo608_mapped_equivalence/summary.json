@@ -1,0 +1,150 @@
+{
+  "started_utc": "2026-09-05T09:27:35.292345+00:00",
+  "checker_sha256": "0d2ebc93656ba04b660fd3f2e7c8752b44fcd265fbee36f7c21197d8b9b10d65",
+  "base_commit": "b94990e7e3de31fc6ad3b44e8e7bf48ab9dbc44d",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)",
+  "abc": "======== ABC command line \"version\"\nUC Berkeley, ABC 1.01 (compiled Aug  5 2026 05:43:12)",
+  "structural_summary_sha256": "cf7606eeb620dd175a4ade58e23e5aca7a353d97151d0cb6685b562d29a49fb1",
+  "concurrent_jobs": 1,
+  "threads": 1,
+  "abc_seconds": 20,
+  "wall_seconds_per_process": 35,
+  "results": [
+    {
+      "source_sha256": "16617cfd52a0d5728d4e04c387085f59c187fd797a5cb88228291dcca51c1383",
+      "mapped_sha256": "c833d34c49baabfdfc03d05592d20db4cbccc87dddf04f59ac0d4901c4590f54",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 12,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "2d92e383c71726d01fc76018a160c5ed33e77bba28e4e622ea8ae9358642ce79",
+        "gate.aig": "578dde1f5583b16a76a7fc689c907fe5055f99caca2537c8a168ee48894fd1a5"
+      },
+      "checked_inputs": 48,
+      "checked_outputs": 39,
+      "module": "mul12_mac_replay_candidate_default",
+      "kind": "candidate",
+      "recipe": "default"
+    },
+    {
+      "source_sha256": "16617cfd52a0d5728d4e04c387085f59c187fd797a5cb88228291dcca51c1383",
+      "mapped_sha256": "91aa909e8a3dc48c4536241dfade8b690ed3a4f8be9fae333737a7c2f1a0c77a",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 12,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "2d92e383c71726d01fc76018a160c5ed33e77bba28e4e622ea8ae9358642ce79",
+        "gate.aig": "990a8a413af6124d83831999c01abd8c06e8c93e452da820818ceb396cf4c6e3"
+      },
+      "checked_inputs": 48,
+      "checked_outputs": 39,
+      "module": "mul12_mac_replay_candidate_classic",
+      "kind": "candidate",
+      "recipe": "classic"
+    },
+    {
+      "source_sha256": "6f60a995c1e0967bbab7333d78de0ae9fc6ce4d6b2f6707d2e78d4efbfbe98ba",
+      "mapped_sha256": "ce82bc9241bab4df68af7eb8aeff54cc804b463bc7a25038805a60a023d30ee0",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 12,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "b14c47ba4cede62a1728a8663e5339b204861a95778aa8cebd1e601fb3478fce",
+        "gate.aig": "7ec02da607757a35debbd9fcaa900349ebbb90b2119f5a1af8310074b3967f3a"
+      },
+      "checked_inputs": 48,
+      "checked_outputs": 39,
+      "module": "mul12_mac_replay_norules_default",
+      "kind": "norules",
+      "recipe": "default"
+    },
+    {
+      "source_sha256": "6f60a995c1e0967bbab7333d78de0ae9fc6ce4d6b2f6707d2e78d4efbfbe98ba",
+      "mapped_sha256": "730f45f258820c63a9514a4d30466a487f2d9980cbfe95b5fe98590ab3f67f33",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 12,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "b14c47ba4cede62a1728a8663e5339b204861a95778aa8cebd1e601fb3478fce",
+        "gate.aig": "4f904248e75553a7719aff636e40fa9403fac08b7f7622d06837fe8091c1c2d2"
+      },
+      "checked_inputs": 48,
+      "checked_outputs": 39,
+      "module": "mul12_mac_replay_norules_classic",
+      "kind": "norules",
+      "recipe": "classic"
+    },
+    {
+      "source_sha256": "4fd7f249fff05fd5833a33fdfb627075dab4a7ed9a1e2703b13d4b80561d06b6",
+      "mapped_sha256": "523f6ea65d7a7403e02bd5c3b786b8e26d6190b2a7cf0f9ed2282a20dab53d50",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 24,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "d179b635038ec29b4617d7df11cae9b284e5b3269e47e7f5cb8ef4cbe0b1f667",
+        "gate.aig": "e9946e445d5db386cf1fd2b4efe8c92db23d44f50990b15289dce06aaec1223d"
+      },
+      "checked_inputs": 96,
+      "checked_outputs": 75,
+      "module": "mul24_mac_replay_candidate_default",
+      "kind": "candidate",
+      "recipe": "default"
+    },
+    {
+      "source_sha256": "4fd7f249fff05fd5833a33fdfb627075dab4a7ed9a1e2703b13d4b80561d06b6",
+      "mapped_sha256": "93198af00868be09d1252956de0580e5b954417aa9ab0e7f9513550119684ed4",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 24,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "d179b635038ec29b4617d7df11cae9b284e5b3269e47e7f5cb8ef4cbe0b1f667",
+        "gate.aig": "93d8ea6348ed61e51b695b3034c0fbebf3ecd4c3c32a5568c61838299ddd1e22"
+      },
+      "checked_inputs": 96,
+      "checked_outputs": 75,
+      "module": "mul24_mac_replay_candidate_classic",
+      "kind": "candidate",
+      "recipe": "classic"
+    },
+    {
+      "source_sha256": "b9e4bacccc3a0185413aedf51b7c0711e7b0ce9d72c4d22792c777cbb9d599a6",
+      "mapped_sha256": "fc512886916a0c31fc1ad7e43470a0bb3b60ef727eb47dc5c84b21bdb50cb5e5",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 24,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "765029be2a76d282b6ce247259dd4356739f193417415a42b7424734455addf0",
+        "gate.aig": "e143ae5b416382355123bac7190c0bfd507e2fb66b7da3c3acd3e82fc023ded1"
+      },
+      "checked_inputs": 96,
+      "checked_outputs": 75,
+      "module": "mul24_mac_replay_norules_default",
+      "kind": "norules",
+      "recipe": "default"
+    },
+    {
+      "source_sha256": "b9e4bacccc3a0185413aedf51b7c0711e7b0ce9d72c4d22792c777cbb9d599a6",
+      "mapped_sha256": "fe79077909c088cf9758777ba2519d481761436bc699174b8d1f63a8d7249642",
+      "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+      "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "width": 24,
+      "status": "proved",
+      "aig_sha256": {
+        "gold.aig": "765029be2a76d282b6ce247259dd4356739f193417415a42b7424734455addf0",
+        "gate.aig": "3878e9485801eca858372572d9743274081a0be90843017da62e8a2197b648bc"
+      },
+      "checked_inputs": 96,
+      "checked_outputs": 75,
+      "module": "mul24_mac_replay_norules_classic",
+      "kind": "norules",
+      "recipe": "classic"
+    }
+  ]
+}

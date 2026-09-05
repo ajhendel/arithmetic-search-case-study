@@ -1,0 +1,482 @@
+
+-- Executing script file `command.ys' --
+
+1. Executing Verilog-2005 frontend: cells.v
+Parsing Verilog input from `cells.v' to AST representation.
+Generating RTLIL representation for module `\gen_and2'.
+Generating RTLIL representation for module `\gen_or2'.
+Generating RTLIL representation for module `\gen_mux2'.
+Generating RTLIL representation for module `\gen_xor2'.
+Generating RTLIL representation for module `\gen_xor3'.
+Generating RTLIL representation for module `\gen_ha'.
+Generating RTLIL representation for module `\gen_fa'.
+Generating RTLIL representation for module `\gen_famux'.
+Generating RTLIL representation for module `\gen_pg'.
+Generating RTLIL representation for module `\gen_black'.
+Generating RTLIL representation for module `\gen_gray'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: miter.v
+Parsing Verilog input from `miter.v' to AST representation.
+Generating RTLIL representation for module `\miter'.
+Successfully finished Verilog frontend.
+
+3. Executing ATTRMAP pass (move or copy attributes).
+Removed attribute on gen_gray: keep_hierarchy=1
+Removed attribute on gen_black: keep_hierarchy=1
+Removed attribute on gen_pg: keep_hierarchy=1
+Removed attribute on gen_famux: keep_hierarchy=1
+Removed attribute on gen_fa: keep_hierarchy=1
+Removed attribute on gen_ha: keep_hierarchy=1
+Removed attribute on gen_xor3: keep_hierarchy=1
+Removed attribute on gen_xor2: keep_hierarchy=1
+Removed attribute on gen_mux2: keep_hierarchy=1
+Removed attribute on gen_or2: keep_hierarchy=1
+Removed attribute on gen_and2: keep_hierarchy=1
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \miter
+Used module:     \gen_or2
+Used module:     \gen_xor2
+Used module:     \gen_and2
+Used module:     \gen_gray
+Used module:     \gen_black
+Used module:     \gen_pg
+
+4.2. Analyzing design hierarchy..
+Top module:  \miter
+Used module:     \gen_or2
+Used module:     \gen_xor2
+Used module:     \gen_and2
+Used module:     \gen_gray
+Used module:     \gen_black
+Used module:     \gen_pg
+Removing unused module `\gen_famux'.
+Removing unused module `\gen_fa'.
+Removing unused module `\gen_ha'.
+Removing unused module `\gen_xor3'.
+Removing unused module `\gen_mux2'.
+Removed 5 unused modules.
+Mapping positional arguments of cell miter.u249 (gen_or2).
+Mapping positional arguments of cell miter.u248 (gen_or2).
+Mapping positional arguments of cell miter.u247 (gen_or2).
+Mapping positional arguments of cell miter.u246 (gen_or2).
+Mapping positional arguments of cell miter.u245 (gen_or2).
+Mapping positional arguments of cell miter.u244 (gen_or2).
+Mapping positional arguments of cell miter.u243 (gen_or2).
+Mapping positional arguments of cell miter.u242 (gen_or2).
+Mapping positional arguments of cell miter.u241 (gen_or2).
+Mapping positional arguments of cell miter.u240 (gen_or2).
+Mapping positional arguments of cell miter.u239 (gen_or2).
+Mapping positional arguments of cell miter.u238 (gen_or2).
+Mapping positional arguments of cell miter.u237 (gen_or2).
+Mapping positional arguments of cell miter.u236 (gen_or2).
+Mapping positional arguments of cell miter.u235 (gen_or2).
+Mapping positional arguments of cell miter.u234 (gen_or2).
+Mapping positional arguments of cell miter.u233 (gen_or2).
+Mapping positional arguments of cell miter.u232 (gen_xor2).
+Mapping positional arguments of cell miter.u231 (gen_xor2).
+Mapping positional arguments of cell miter.u230 (gen_xor2).
+Mapping positional arguments of cell miter.u229 (gen_xor2).
+Mapping positional arguments of cell miter.u228 (gen_xor2).
+Mapping positional arguments of cell miter.u227 (gen_xor2).
+Mapping positional arguments of cell miter.u226 (gen_xor2).
+Mapping positional arguments of cell miter.u225 (gen_xor2).
+Mapping positional arguments of cell miter.u224 (gen_xor2).
+Mapping positional arguments of cell miter.u223 (gen_xor2).
+Mapping positional arguments of cell miter.u222 (gen_xor2).
+Mapping positional arguments of cell miter.u221 (gen_xor2).
+Mapping positional arguments of cell miter.u220 (gen_xor2).
+Mapping positional arguments of cell miter.u219 (gen_and2).
+Mapping positional arguments of cell miter.u218 (gen_and2).
+Mapping positional arguments of cell miter.u217 (gen_and2).
+Mapping positional arguments of cell miter.u216 (gen_and2).
+Mapping positional arguments of cell miter.u215 (gen_and2).
+Mapping positional arguments of cell miter.u214 (gen_and2).
+Mapping positional arguments of cell miter.u213 (gen_and2).
+Mapping positional arguments of cell miter.u212 (gen_and2).
+Mapping positional arguments of cell miter.u211 (gen_and2).
+Mapping positional arguments of cell miter.u210 (gen_and2).
+Mapping positional arguments of cell miter.u209 (gen_and2).
+Mapping positional arguments of cell miter.u208 (gen_and2).
+Mapping positional arguments of cell miter.u207 (gen_and2).
+Mapping positional arguments of cell miter.u206 (gen_and2).
+Mapping positional arguments of cell miter.u205 (gen_and2).
+Mapping positional arguments of cell miter.u204 (gen_and2).
+Mapping positional arguments of cell miter.u203 (gen_and2).
+Mapping positional arguments of cell miter.u202 (gen_and2).
+Mapping positional arguments of cell miter.u201 (gen_and2).
+Mapping positional arguments of cell miter.u200 (gen_and2).
+Mapping positional arguments of cell miter.u199 (gen_and2).
+Mapping positional arguments of cell miter.u198 (gen_and2).
+Mapping positional arguments of cell miter.u197 (gen_and2).
+Mapping positional arguments of cell miter.u196 (gen_and2).
+Mapping positional arguments of cell miter.u195 (gen_and2).
+Mapping positional arguments of cell miter.u194 (gen_and2).
+Mapping positional arguments of cell miter.u193 (gen_and2).
+Mapping positional arguments of cell miter.u192 (gen_and2).
+Mapping positional arguments of cell miter.u191 (gen_and2).
+Mapping positional arguments of cell miter.u190 (gen_and2).
+Mapping positional arguments of cell miter.u189 (gen_and2).
+Mapping positional arguments of cell miter.u188 (gen_and2).
+Mapping positional arguments of cell miter.u187 (gen_and2).
+Mapping positional arguments of cell miter.u186 (gen_and2).
+Mapping positional arguments of cell miter.u185 (gen_and2).
+Mapping positional arguments of cell miter.u184 (gen_and2).
+Mapping positional arguments of cell miter.u183 (gen_and2).
+Mapping positional arguments of cell miter.u182 (gen_xor2).
+Mapping positional arguments of cell miter.u181 (gen_xor2).
+Mapping positional arguments of cell miter.u180 (gen_xor2).
+Mapping positional arguments of cell miter.u179 (gen_xor2).
+Mapping positional arguments of cell miter.u178 (gen_xor2).
+Mapping positional arguments of cell miter.u177 (gen_xor2).
+Mapping positional arguments of cell miter.u176 (gen_xor2).
+Mapping positional arguments of cell miter.u175 (gen_xor2).
+Mapping positional arguments of cell miter.u174 (gen_xor2).
+Mapping positional arguments of cell miter.u173 (gen_xor2).
+Mapping positional arguments of cell miter.u172 (gen_xor2).
+Mapping positional arguments of cell miter.u171 (gen_xor2).
+Mapping positional arguments of cell miter.u170 (gen_xor2).
+Mapping positional arguments of cell miter.u169 (gen_xor2).
+Mapping positional arguments of cell miter.u168 (gen_xor2).
+Mapping positional arguments of cell miter.u167 (gen_gray).
+Mapping positional arguments of cell miter.u166 (gen_gray).
+Mapping positional arguments of cell miter.u165 (gen_gray).
+Mapping positional arguments of cell miter.u164 (gen_gray).
+Mapping positional arguments of cell miter.u163 (gen_gray).
+Mapping positional arguments of cell miter.u162 (gen_gray).
+Mapping positional arguments of cell miter.u161 (gen_gray).
+Mapping positional arguments of cell miter.u160 (gen_gray).
+Mapping positional arguments of cell miter.u159 (gen_black).
+Mapping positional arguments of cell miter.u158 (gen_black).
+Mapping positional arguments of cell miter.u157 (gen_black).
+Mapping positional arguments of cell miter.u156 (gen_black).
+Mapping positional arguments of cell miter.u155 (gen_gray).
+Mapping positional arguments of cell miter.u154 (gen_gray).
+Mapping positional arguments of cell miter.u153 (gen_gray).
+Mapping positional arguments of cell miter.u152 (gen_gray).
+Mapping positional arguments of cell miter.u151 (gen_black).
+Mapping positional arguments of cell miter.u150 (gen_black).
+Mapping positional arguments of cell miter.u149 (gen_black).
+Mapping positional arguments of cell miter.u148 (gen_black).
+Mapping positional arguments of cell miter.u147 (gen_black).
+Mapping positional arguments of cell miter.u146 (gen_black).
+Mapping positional arguments of cell miter.u145 (gen_gray).
+Mapping positional arguments of cell miter.u144 (gen_gray).
+Mapping positional arguments of cell miter.u143 (gen_black).
+Mapping positional arguments of cell miter.u142 (gen_black).
+Mapping positional arguments of cell miter.u141 (gen_black).
+Mapping positional arguments of cell miter.u140 (gen_black).
+Mapping positional arguments of cell miter.u139 (gen_black).
+Mapping positional arguments of cell miter.u138 (gen_black).
+Mapping positional arguments of cell miter.u137 (gen_black).
+Mapping positional arguments of cell miter.u136 (gen_gray).
+Mapping positional arguments of cell miter.u135 (gen_pg).
+Mapping positional arguments of cell miter.u134 (gen_pg).
+Mapping positional arguments of cell miter.u133 (gen_pg).
+Mapping positional arguments of cell miter.u132 (gen_pg).
+Mapping positional arguments of cell miter.u131 (gen_pg).
+Mapping positional arguments of cell miter.u130 (gen_pg).
+Mapping positional arguments of cell miter.u129 (gen_pg).
+Mapping positional arguments of cell miter.u128 (gen_pg).
+Mapping positional arguments of cell miter.u127 (gen_pg).
+Mapping positional arguments of cell miter.u126 (gen_pg).
+Mapping positional arguments of cell miter.u125 (gen_pg).
+Mapping positional arguments of cell miter.u124 (gen_pg).
+Mapping positional arguments of cell miter.u123 (gen_pg).
+Mapping positional arguments of cell miter.u122 (gen_pg).
+Mapping positional arguments of cell miter.u121 (gen_pg).
+Mapping positional arguments of cell miter.u120 (gen_pg).
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+5.4. Executing PROC_INIT pass (extract init attributes).
+
+5.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+5.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module gen_gray.
+Optimizing module gen_black.
+Optimizing module gen_pg.
+Optimizing module gen_xor2.
+Optimizing module miter.
+<suppressed ~1 debug messages>
+Optimizing module gen_or2.
+Optimizing module gen_and2.
+
+6. Executing FLATTEN pass (flatten design).
+Deleting now unused module gen_gray.
+Deleting now unused module gen_black.
+Deleting now unused module gen_pg.
+Deleting now unused module gen_xor2.
+Deleting now unused module gen_or2.
+Deleting now unused module gen_and2.
+<suppressed ~130 debug messages>
+
+7. Executing OPT pass (performing simple optimizations).
+
+7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+
+7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 333 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Removed a total of 0 cells.
+
+7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \miter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \miter.
+Performed a total of 0 changes.
+
+7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 333 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Removed a total of 0 cells.
+
+7.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \miter..
+Removed 0 unused cells and 170 unused wires.
+<suppressed ~1 debug messages>
+
+7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+
+7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \miter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \miter.
+Performed a total of 0 changes.
+
+7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 333 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Removed a total of 0 cells.
+
+7.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \miter..
+
+7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+
+7.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8. Executing TECHMAP pass (map to technology primitives).
+
+8.1. Executing Verilog-2005 frontend: /opt/homebrew/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/opt/homebrew/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+8.2. Continuing TECHMAP pass.
+Running "alumacc" on wrapper $extern:wrap:$add:Y_WIDTH=17:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$add:Y_WIDTH=17:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$add:Y_WIDTH=17:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$gt:Y_WIDTH=1:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$gt:Y_WIDTH=1:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$gt:Y_WIDTH=1:B_WIDTH=17:A_WIDTH=17:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $nex.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $not.
+Using template $paramod$3bb72ad0665cdca279bbc49ed6a39f403f16497f\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $reduce_and.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000010001 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000010001 for cells of type $lcu.
+Using extmapper simplemap for cells of type $pos.
+No more expansions possible.
+<suppressed ~708 debug messages>
+
+9. Executing OPT pass (performing simple optimizations).
+
+9.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+<suppressed ~416 debug messages>
+
+9.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 629 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 588 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 568 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 553 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 545 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 540 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 534 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 527 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 519 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 513 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 509 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Computing hashes of 507 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+<suppressed ~366 debug messages>
+Removed a total of 122 cells.
+
+9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \miter..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \miter.
+Performed a total of 0 changes.
+
+9.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 507 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Removed a total of 0 cells.
+
+9.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \miter..
+Removed 47 unused cells and 280 unused wires.
+<suppressed ~48 debug messages>
+
+9.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+
+9.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+9.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \miter..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \miter.
+Performed a total of 0 changes.
+
+9.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\miter'.
+Computing hashes of 460 cells of `\miter'.
+Finding duplicate cells in `\miter'.
+Removed a total of 0 cells.
+
+9.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \miter..
+
+9.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module miter.
+
+9.16. Finished fast OPT passes. (There is nothing left to do.)
+
+10. Executing CHECK pass (checking for obvious problems).
+Checking module miter...
+Found and reported 0 problems.
+
+11. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up SAT problem:
+Final constraint equation: { } = { }
+Import def constraint for this timestep: \cut
+Imported 460 cells to SAT database.
+Import proof-constraint: \bad = 1'0
+Final proof equation: \bad = 1'0
+Import show expression: \cut
+Import show expression: \bad
+
+Solving problem with 5614 variables and 14699 clauses..
+SAT proof finished - no model found: SUCCESS!
+
+                  /$$$$$$      /$$$$$$$$     /$$$$$$$    
+                 /$$__  $$    | $$_____/    | $$__  $$   
+                | $$  \ $$    | $$          | $$  \ $$   
+                | $$  | $$    | $$$$$       | $$  | $$   
+                | $$  | $$    | $$__/       | $$  | $$   
+                | $$/$$ $$    | $$          | $$  | $$   
+                |  $$$$$$/ /$$| $$$$$$$$ /$$| $$$$$$$//$$
+                 \____ $$$|__/|________/|__/|_______/|__/
+                       \__/                              
+
+End of script. Logfile hash: a2d76854e5, time: 0.10s, user: 0.10s, system: 0.01s, MEM: 26.45 MB peak
+Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)
+Time spent: 27% 1x sat (0 sec), 20% 4x read_verilog (0 sec), ...

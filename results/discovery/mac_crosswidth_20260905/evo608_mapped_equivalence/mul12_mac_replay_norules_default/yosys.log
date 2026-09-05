@@ -1,0 +1,1714 @@
+
+-- Executing script file `command.ys' --
+
+1. Executing Verilog-2005 frontend: cells.v
+Parsing Verilog input from `cells.v' to AST representation.
+Generating RTLIL representation for module `\gen_and2'.
+Generating RTLIL representation for module `\gen_or2'.
+Generating RTLIL representation for module `\gen_mux2'.
+Generating RTLIL representation for module `\gen_xor2'.
+Generating RTLIL representation for module `\gen_xor3'.
+Generating RTLIL representation for module `\gen_ha'.
+Generating RTLIL representation for module `\gen_fa'.
+Generating RTLIL representation for module `\gen_famux'.
+Generating RTLIL representation for module `\gen_pg'.
+Generating RTLIL representation for module `\gen_black'.
+Generating RTLIL representation for module `\gen_gray'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: gold.v
+Parsing Verilog input from `gold.v' to AST representation.
+Generating RTLIL representation for module `\mul12_mac_replay_norules'.
+Successfully finished Verilog frontend.
+
+3. Executing ATTRMAP pass (move or copy attributes).
+Removed attribute on gen_gray: keep_hierarchy=1
+Removed attribute on gen_black: keep_hierarchy=1
+Removed attribute on gen_pg: keep_hierarchy=1
+Removed attribute on gen_famux: keep_hierarchy=1
+Removed attribute on gen_fa: keep_hierarchy=1
+Removed attribute on gen_ha: keep_hierarchy=1
+Removed attribute on gen_xor3: keep_hierarchy=1
+Removed attribute on gen_xor2: keep_hierarchy=1
+Removed attribute on gen_mux2: keep_hierarchy=1
+Removed attribute on gen_or2: keep_hierarchy=1
+Removed attribute on gen_and2: keep_hierarchy=1
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \mul12_mac_replay_norules
+Used module:     \gen_or2
+Used module:     \gen_xor2
+Used module:     \gen_and2
+Used module:     \gen_gray
+Used module:     \gen_black
+Used module:     \gen_pg
+Used module:     \gen_famux
+Used module:     \gen_ha
+
+4.2. Analyzing design hierarchy..
+Top module:  \mul12_mac_replay_norules
+Used module:     \gen_or2
+Used module:     \gen_xor2
+Used module:     \gen_and2
+Used module:     \gen_gray
+Used module:     \gen_black
+Used module:     \gen_pg
+Used module:     \gen_famux
+Used module:     \gen_ha
+Removing unused module `\gen_fa'.
+Removing unused module `\gen_xor3'.
+Removing unused module `\gen_mux2'.
+Removed 3 unused modules.
+Mapping positional arguments of cell mul12_mac_replay_norules.u482 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u481 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u480 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u479 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u478 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u477 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u476 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u475 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u474 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u473 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u472 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u471 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u470 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u469 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u468 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u467 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u466 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u465 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u464 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u463 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u462 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u461 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u460 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u459 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u458 (gen_or2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u457 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u456 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u455 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u454 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u453 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u452 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u451 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u450 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u449 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u448 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u447 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u446 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u445 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u444 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u443 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u442 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u441 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u440 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u439 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u438 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u437 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u436 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u435 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u434 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u433 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u432 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u431 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u430 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u429 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u428 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u427 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u426 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u425 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u424 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u423 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u422 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u421 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u420 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u419 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u418 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u417 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u416 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u415 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u414 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u413 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u412 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u411 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u410 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u409 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u408 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u407 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u406 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u405 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u404 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u403 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u402 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u401 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u400 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u399 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u398 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u397 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u396 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u395 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u394 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u393 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u392 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u391 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u390 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u389 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u388 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u387 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u386 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u385 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u384 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u383 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u382 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u381 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u380 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u379 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u378 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u377 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u376 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u375 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u374 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u373 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u372 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u371 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u370 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u369 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u368 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u367 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u366 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u365 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u364 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u363 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u362 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u361 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u360 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u359 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u358 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u357 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u356 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u355 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u354 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u353 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u352 (gen_xor2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u351 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u350 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u349 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u348 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u347 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u346 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u345 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u344 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u343 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u342 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u341 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u340 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u339 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u338 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u337 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u336 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u335 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u334 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u333 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u332 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u331 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u330 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u329 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u328 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u327 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u326 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u325 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u324 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u323 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u322 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u321 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u320 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u319 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u318 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u317 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u316 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u315 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u314 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u313 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u312 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u311 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u310 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u309 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u308 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u307 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u306 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u305 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u304 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u303 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u302 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u301 (gen_black).
+Mapping positional arguments of cell mul12_mac_replay_norules.u300 (gen_gray).
+Mapping positional arguments of cell mul12_mac_replay_norules.u299 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u298 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u297 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u296 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u295 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u294 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u293 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u292 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u291 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u290 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u289 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u288 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u287 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u286 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u285 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u284 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u283 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u282 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u281 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u280 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u279 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u278 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u277 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u276 (gen_pg).
+Mapping positional arguments of cell mul12_mac_replay_norules.u275 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u274 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u273 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u272 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u271 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u270 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u269 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u268 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u267 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u266 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u265 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u264 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u263 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u262 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u261 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u260 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u259 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u258 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u257 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u256 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u255 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u254 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u253 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u252 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u251 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u250 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u249 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u248 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u247 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u246 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u245 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u244 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u243 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u242 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u241 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u240 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u239 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u238 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u237 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u236 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u235 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u234 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u233 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u232 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u231 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u230 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u229 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u228 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u227 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u226 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u225 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u224 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u223 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u222 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u221 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u220 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u219 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u218 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u217 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u216 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u215 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u214 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u213 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u212 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u211 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u210 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u209 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u208 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u207 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u206 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u205 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u204 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u203 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u202 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u201 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u200 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u199 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u198 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u197 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u196 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u195 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u194 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u193 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u192 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u191 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u190 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u189 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u188 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u187 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u186 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u185 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u184 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u183 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u182 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u181 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u180 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u179 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u178 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u177 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u176 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u175 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u174 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u173 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u172 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u171 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u170 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u169 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u168 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u167 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u166 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u165 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u164 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u163 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u162 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u161 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u160 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u159 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u158 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u157 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u156 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u155 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u154 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u153 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u152 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u151 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u150 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u149 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u148 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u147 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u146 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u145 (gen_famux).
+Mapping positional arguments of cell mul12_mac_replay_norules.u144 (gen_ha).
+Mapping positional arguments of cell mul12_mac_replay_norules.u143 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u142 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u141 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u140 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u139 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u138 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u137 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u136 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u135 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u134 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u133 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u132 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u131 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u130 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u129 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u128 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u127 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u126 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u125 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u124 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u123 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u122 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u121 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u120 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u119 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u118 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u117 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u116 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u115 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u114 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u113 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u112 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u111 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u110 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u109 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u108 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u107 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u106 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u105 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u104 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u103 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u102 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u101 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u100 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u99 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u98 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u97 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u96 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u95 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u94 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u93 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u92 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u91 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u90 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u89 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u88 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u87 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u86 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u85 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u84 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u83 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u82 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u81 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u80 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u79 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u78 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u77 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u76 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u75 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u74 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u73 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u72 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u71 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u70 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u69 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u68 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u67 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u66 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u65 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u64 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u63 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u62 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u61 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u60 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u59 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u58 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u57 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u56 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u55 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u54 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u53 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u52 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u51 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u50 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u49 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u48 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u47 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u46 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u45 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u44 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u43 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u42 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u41 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u40 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u39 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u38 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u37 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u36 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u35 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u34 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u33 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u32 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u31 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u30 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u29 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u28 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u27 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u26 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u25 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u24 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u23 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u22 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u21 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u20 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u19 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u18 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u17 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u16 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u15 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u14 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u13 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u12 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u11 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u10 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u9 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u8 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u7 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u6 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u5 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u4 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u3 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u2 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u1 (gen_and2).
+Mapping positional arguments of cell mul12_mac_replay_norules.u0 (gen_and2).
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+5.4. Executing PROC_INIT pass (extract init attributes).
+
+5.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+5.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module gen_pg.
+Optimizing module gen_famux.
+Optimizing module mul12_mac_replay_norules.
+Optimizing module gen_ha.
+Optimizing module gen_gray.
+Optimizing module gen_xor2.
+Optimizing module gen_black.
+Optimizing module gen_or2.
+Optimizing module gen_and2.
+
+6. Executing FLATTEN pass (flatten design).
+Deleting now unused module gen_pg.
+Deleting now unused module gen_famux.
+Deleting now unused module gen_ha.
+Deleting now unused module gen_gray.
+Deleting now unused module gen_xor2.
+Deleting now unused module gen_black.
+Deleting now unused module gen_or2.
+Deleting now unused module gen_and2.
+<suppressed ~483 debug messages>
+
+7. Executing OPT pass (performing simple optimizations).
+
+7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules.
+
+7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules'.
+Computing hashes of 1323 cells of `\mul12_mac_replay_norules'.
+Finding duplicate cells in `\mul12_mac_replay_norules'.
+Removed a total of 0 cells.
+
+7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~240 debug messages>
+
+7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules.
+Performed a total of 0 changes.
+
+7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules'.
+Computing hashes of 1323 cells of `\mul12_mac_replay_norules'.
+Finding duplicate cells in `\mul12_mac_replay_norules'.
+Removed a total of 0 cells.
+
+7.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules..
+Removed 0 unused cells and 788 unused wires.
+<suppressed ~1 debug messages>
+
+7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules.
+
+7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~240 debug messages>
+
+7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules.
+Performed a total of 0 changes.
+
+7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules'.
+Computing hashes of 1323 cells of `\mul12_mac_replay_norules'.
+Finding duplicate cells in `\mul12_mac_replay_norules'.
+Removed a total of 0 cells.
+
+7.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules..
+
+7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules.
+
+7.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8. Executing TECHMAP pass (map to technology primitives).
+
+8.1. Executing Verilog-2005 frontend: /opt/homebrew/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/opt/homebrew/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+8.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $or.
+No more expansions possible.
+<suppressed ~917 debug messages>
+
+9. Executing OPT pass (performing simple optimizations).
+
+9.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules.
+
+9.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules'.
+Computing hashes of 1323 cells of `\mul12_mac_replay_norules'.
+Finding duplicate cells in `\mul12_mac_replay_norules'.
+Removed a total of 0 cells.
+
+9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules.
+Performed a total of 0 changes.
+
+9.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules'.
+Computing hashes of 1323 cells of `\mul12_mac_replay_norules'.
+Finding duplicate cells in `\mul12_mac_replay_norules'.
+Removed a total of 0 cells.
+
+9.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules..
+
+9.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules.
+
+9.9. Finished fast OPT passes. (There is nothing left to do.)
+
+10. Executing CHECK pass (checking for obvious problems).
+Checking module mul12_mac_replay_norules...
+Found and reported 0 problems.
+
+11. Executing AIGMAP pass (map logic to AIG).
+Module mul12_mac_replay_norules: replaced 515 cells with 3374 new cells, skipped 808 cells.
+  replaced 3 cell types:
+     120 $_MUX_
+      77 $_OR_
+     318 $_XOR_
+  not replaced 2 cell types:
+     325 $_AND_
+     483 $scopeinfo
+
+12. Executing AIGER backend.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [12] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [13] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [14] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [15] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [16] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [17] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [18] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [19] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [20] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [21] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [22] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [23] like $anyseq.
+Warning: Treating a total of 48 undriven bits in mul12_mac_replay_norules like $anyseq.
+
+13. Executing AIGER backend.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\a [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\b [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [12] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [13] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [14] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [15] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [16] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [17] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [18] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [19] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [20] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [21] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [22] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules.\aux [23] like $anyseq.
+Warning: Treating a total of 48 undriven bits in mul12_mac_replay_norules like $anyseq.
+
+14. Executing Liberty frontend: library.lib
+Ignoring cell sky130_fd_sc_hd__dlclkp_1 with missing function on output GCLK.
+Ignoring cell sky130_fd_sc_hd__dlclkp_2 with missing function on output GCLK.
+Ignoring cell sky130_fd_sc_hd__dlclkp_4 with missing function on output GCLK.
+Ignoring cell sky130_fd_sc_hd__sdlclkp_1 with missing function on output GCLK.
+Ignoring cell sky130_fd_sc_hd__sdlclkp_2 with missing function on output GCLK.
+Ignoring cell sky130_fd_sc_hd__sdlclkp_4 with missing function on output GCLK.
+Imported 422 cell types from liberty file.
+<suppressed ~12 debug messages>
+
+15. Executing Verilog-2005 frontend: gate.v
+Parsing Verilog input from `gate.v' to AST representation.
+Generating RTLIL representation for module `\mul12_mac_replay_norules_default'.
+Successfully finished Verilog frontend.
+
+16. Executing HIERARCHY pass (managing design hierarchy).
+
+16.1. Analyzing design hierarchy..
+Top module:  \mul12_mac_replay_norules_default
+Used module:     \sky130_fd_sc_hd__nand4_1
+Used module:     \sky130_fd_sc_hd__xnor2_1
+Used module:     \sky130_fd_sc_hd__xor2_1
+Used module:     \sky130_fd_sc_hd__nor3_1
+Used module:     \sky130_fd_sc_hd__or4_1
+Used module:     \sky130_fd_sc_hd__nand3_1
+Used module:     \sky130_fd_sc_hd__nor4b_1
+Used module:     \sky130_fd_sc_hd__a2111oi_0
+Used module:     \sky130_fd_sc_hd__lpflow_inputiso1p_1
+Used module:     \sky130_fd_sc_hd__nor2_1
+Used module:     \sky130_fd_sc_hd__o21a_1
+Used module:     \sky130_fd_sc_hd__o31ai_1
+Used module:     \sky130_fd_sc_hd__and2_0
+Used module:     \sky130_fd_sc_hd__a211o_1
+Used module:     \sky130_fd_sc_hd__clkinv_1
+Used module:     \sky130_fd_sc_hd__nand2_1
+Used module:     \sky130_fd_sc_hd__and3_1
+Used module:     \sky130_fd_sc_hd__a21oi_1
+Used module:     \sky130_fd_sc_hd__maj3_1
+Used module:     \sky130_fd_sc_hd__o21ai_0
+Used module:     \sky130_fd_sc_hd__o211ai_1
+Used module:     \sky130_fd_sc_hd__a311oi_1
+Used module:     \sky130_fd_sc_hd__a31oi_1
+Used module:     \sky130_fd_sc_hd__o221ai_1
+Used module:     \sky130_fd_sc_hd__xnor3_1
+Used module:     \sky130_fd_sc_hd__xor3_1
+Used module:     \sky130_fd_sc_hd__a22o_1
+Used module:     \sky130_fd_sc_hd__lpflow_isobufsrc_1
+Used module:     \sky130_fd_sc_hd__a21o_1
+Used module:     \sky130_fd_sc_hd__nor2b_1
+Used module:     \sky130_fd_sc_hd__a22oi_1
+Used module:     \sky130_fd_sc_hd__nand2b_1
+Used module:     \sky130_fd_sc_hd__and4_1
+Used module:     \sky130_fd_sc_hd__o21bai_1
+Used module:     \sky130_fd_sc_hd__a31o_1
+Used module:     \sky130_fd_sc_hd__or3_1
+
+16.2. Analyzing design hierarchy..
+Top module:  \mul12_mac_replay_norules_default
+Used module:     \sky130_fd_sc_hd__nand4_1
+Used module:     \sky130_fd_sc_hd__xnor2_1
+Used module:     \sky130_fd_sc_hd__xor2_1
+Used module:     \sky130_fd_sc_hd__nor3_1
+Used module:     \sky130_fd_sc_hd__or4_1
+Used module:     \sky130_fd_sc_hd__nand3_1
+Used module:     \sky130_fd_sc_hd__nor4b_1
+Used module:     \sky130_fd_sc_hd__a2111oi_0
+Used module:     \sky130_fd_sc_hd__lpflow_inputiso1p_1
+Used module:     \sky130_fd_sc_hd__nor2_1
+Used module:     \sky130_fd_sc_hd__o21a_1
+Used module:     \sky130_fd_sc_hd__o31ai_1
+Used module:     \sky130_fd_sc_hd__and2_0
+Used module:     \sky130_fd_sc_hd__a211o_1
+Used module:     \sky130_fd_sc_hd__clkinv_1
+Used module:     \sky130_fd_sc_hd__nand2_1
+Used module:     \sky130_fd_sc_hd__and3_1
+Used module:     \sky130_fd_sc_hd__a21oi_1
+Used module:     \sky130_fd_sc_hd__maj3_1
+Used module:     \sky130_fd_sc_hd__o21ai_0
+Used module:     \sky130_fd_sc_hd__o211ai_1
+Used module:     \sky130_fd_sc_hd__a311oi_1
+Used module:     \sky130_fd_sc_hd__a31oi_1
+Used module:     \sky130_fd_sc_hd__o221ai_1
+Used module:     \sky130_fd_sc_hd__xnor3_1
+Used module:     \sky130_fd_sc_hd__xor3_1
+Used module:     \sky130_fd_sc_hd__a22o_1
+Used module:     \sky130_fd_sc_hd__lpflow_isobufsrc_1
+Used module:     \sky130_fd_sc_hd__a21o_1
+Used module:     \sky130_fd_sc_hd__nor2b_1
+Used module:     \sky130_fd_sc_hd__a22oi_1
+Used module:     \sky130_fd_sc_hd__nand2b_1
+Used module:     \sky130_fd_sc_hd__and4_1
+Used module:     \sky130_fd_sc_hd__o21bai_1
+Used module:     \sky130_fd_sc_hd__a31o_1
+Used module:     \sky130_fd_sc_hd__or3_1
+Removing unused module `\sky130_fd_sc_hd__xor3_4'.
+Removing unused module `\sky130_fd_sc_hd__xor3_2'.
+Removing unused module `\sky130_fd_sc_hd__xor2_4'.
+Removing unused module `\sky130_fd_sc_hd__xor2_2'.
+Removing unused module `\sky130_fd_sc_hd__xnor3_4'.
+Removing unused module `\sky130_fd_sc_hd__xnor3_2'.
+Removing unused module `\sky130_fd_sc_hd__xnor2_4'.
+Removing unused module `\sky130_fd_sc_hd__xnor2_2'.
+Removing unused module `\sky130_fd_sc_hd__sedfxtp_4'.
+Removing unused module `\sky130_fd_sc_hd__sedfxtp_2'.
+Removing unused module `\sky130_fd_sc_hd__sedfxtp_1'.
+Removing unused module `\sky130_fd_sc_hd__sedfxbp_2'.
+Removing unused module `\sky130_fd_sc_hd__sedfxbp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfxtp_4'.
+Removing unused module `\sky130_fd_sc_hd__sdfxtp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfxtp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfxbp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfxbp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfstp_4'.
+Removing unused module `\sky130_fd_sc_hd__sdfstp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfstp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfsbp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfsbp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfrtp_4'.
+Removing unused module `\sky130_fd_sc_hd__sdfrtp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfrtp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfrtn_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfrbp_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfrbp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfbbp_1'.
+Removing unused module `\sky130_fd_sc_hd__sdfbbn_2'.
+Removing unused module `\sky130_fd_sc_hd__sdfbbn_1'.
+Removing unused module `\sky130_fd_sc_hd__probec_p_8'.
+Removing unused module `\sky130_fd_sc_hd__probe_p_8'.
+Removing unused module `\sky130_fd_sc_hd__or4bb_4'.
+Removing unused module `\sky130_fd_sc_hd__or4bb_2'.
+Removing unused module `\sky130_fd_sc_hd__or4bb_1'.
+Removing unused module `\sky130_fd_sc_hd__or4b_4'.
+Removing unused module `\sky130_fd_sc_hd__or4b_2'.
+Removing unused module `\sky130_fd_sc_hd__or4b_1'.
+Removing unused module `\sky130_fd_sc_hd__or4_4'.
+Removing unused module `\sky130_fd_sc_hd__or4_2'.
+Removing unused module `\sky130_fd_sc_hd__or3b_4'.
+Removing unused module `\sky130_fd_sc_hd__or3b_2'.
+Removing unused module `\sky130_fd_sc_hd__or3b_1'.
+Removing unused module `\sky130_fd_sc_hd__or3_4'.
+Removing unused module `\sky130_fd_sc_hd__or3_2'.
+Removing unused module `\sky130_fd_sc_hd__or2b_4'.
+Removing unused module `\sky130_fd_sc_hd__or2b_2'.
+Removing unused module `\sky130_fd_sc_hd__or2b_1'.
+Removing unused module `\sky130_fd_sc_hd__or2_4'.
+Removing unused module `\sky130_fd_sc_hd__or2_2'.
+Removing unused module `\sky130_fd_sc_hd__or2_1'.
+Removing unused module `\sky130_fd_sc_hd__or2_0'.
+Removing unused module `\sky130_fd_sc_hd__o41ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o41ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o41ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o41a_4'.
+Removing unused module `\sky130_fd_sc_hd__o41a_2'.
+Removing unused module `\sky130_fd_sc_hd__o41a_1'.
+Removing unused module `\sky130_fd_sc_hd__o32ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o32ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o32ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o32a_4'.
+Removing unused module `\sky130_fd_sc_hd__o32a_2'.
+Removing unused module `\sky130_fd_sc_hd__o32a_1'.
+Removing unused module `\sky130_fd_sc_hd__o31ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o31ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o31a_4'.
+Removing unused module `\sky130_fd_sc_hd__o31a_2'.
+Removing unused module `\sky130_fd_sc_hd__o31a_1'.
+Removing unused module `\sky130_fd_sc_hd__o311ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o311ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o311ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o311ai_0'.
+Removing unused module `\sky130_fd_sc_hd__o311a_4'.
+Removing unused module `\sky130_fd_sc_hd__o311a_2'.
+Removing unused module `\sky130_fd_sc_hd__o311a_1'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2a_4'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2a_2'.
+Removing unused module `\sky130_fd_sc_hd__o2bb2a_1'.
+Removing unused module `\sky130_fd_sc_hd__o22ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o22ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o22ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o22a_4'.
+Removing unused module `\sky130_fd_sc_hd__o22a_2'.
+Removing unused module `\sky130_fd_sc_hd__o22a_1'.
+Removing unused module `\sky130_fd_sc_hd__o221ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o221ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o221a_4'.
+Removing unused module `\sky130_fd_sc_hd__o221a_2'.
+Removing unused module `\sky130_fd_sc_hd__o221a_1'.
+Removing unused module `\sky130_fd_sc_hd__o21bai_4'.
+Removing unused module `\sky130_fd_sc_hd__o21bai_2'.
+Removing unused module `\sky130_fd_sc_hd__o21ba_4'.
+Removing unused module `\sky130_fd_sc_hd__o21ba_2'.
+Removing unused module `\sky130_fd_sc_hd__o21ba_1'.
+Removing unused module `\sky130_fd_sc_hd__o21ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o21ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o21ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o21a_4'.
+Removing unused module `\sky130_fd_sc_hd__o21a_2'.
+Removing unused module `\sky130_fd_sc_hd__o211ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o211ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o211a_4'.
+Removing unused module `\sky130_fd_sc_hd__o211a_2'.
+Removing unused module `\sky130_fd_sc_hd__o211a_1'.
+Removing unused module `\sky130_fd_sc_hd__o2111ai_4'.
+Removing unused module `\sky130_fd_sc_hd__o2111ai_2'.
+Removing unused module `\sky130_fd_sc_hd__o2111ai_1'.
+Removing unused module `\sky130_fd_sc_hd__o2111a_4'.
+Removing unused module `\sky130_fd_sc_hd__o2111a_2'.
+Removing unused module `\sky130_fd_sc_hd__o2111a_1'.
+Removing unused module `\sky130_fd_sc_hd__nor4bb_4'.
+Removing unused module `\sky130_fd_sc_hd__nor4bb_2'.
+Removing unused module `\sky130_fd_sc_hd__nor4bb_1'.
+Removing unused module `\sky130_fd_sc_hd__nor4b_4'.
+Removing unused module `\sky130_fd_sc_hd__nor4b_2'.
+Removing unused module `\sky130_fd_sc_hd__nor4_4'.
+Removing unused module `\sky130_fd_sc_hd__nor4_2'.
+Removing unused module `\sky130_fd_sc_hd__nor4_1'.
+Removing unused module `\sky130_fd_sc_hd__nor3b_4'.
+Removing unused module `\sky130_fd_sc_hd__nor3b_2'.
+Removing unused module `\sky130_fd_sc_hd__nor3b_1'.
+Removing unused module `\sky130_fd_sc_hd__nor3_4'.
+Removing unused module `\sky130_fd_sc_hd__nor3_2'.
+Removing unused module `\sky130_fd_sc_hd__nor2b_4'.
+Removing unused module `\sky130_fd_sc_hd__nor2b_2'.
+Removing unused module `\sky130_fd_sc_hd__nor2_8'.
+Removing unused module `\sky130_fd_sc_hd__nor2_4'.
+Removing unused module `\sky130_fd_sc_hd__nor2_2'.
+Removing unused module `\sky130_fd_sc_hd__nand4bb_4'.
+Removing unused module `\sky130_fd_sc_hd__nand4bb_2'.
+Removing unused module `\sky130_fd_sc_hd__nand4bb_1'.
+Removing unused module `\sky130_fd_sc_hd__nand4b_4'.
+Removing unused module `\sky130_fd_sc_hd__nand4b_2'.
+Removing unused module `\sky130_fd_sc_hd__nand4b_1'.
+Removing unused module `\sky130_fd_sc_hd__nand4_4'.
+Removing unused module `\sky130_fd_sc_hd__nand4_2'.
+Removing unused module `\sky130_fd_sc_hd__nand3b_4'.
+Removing unused module `\sky130_fd_sc_hd__nand3b_2'.
+Removing unused module `\sky130_fd_sc_hd__nand3b_1'.
+Removing unused module `\sky130_fd_sc_hd__nand3_4'.
+Removing unused module `\sky130_fd_sc_hd__nand3_2'.
+Removing unused module `\sky130_fd_sc_hd__nand2b_4'.
+Removing unused module `\sky130_fd_sc_hd__nand2b_2'.
+Removing unused module `\sky130_fd_sc_hd__nand2_8'.
+Removing unused module `\sky130_fd_sc_hd__nand2_4'.
+Removing unused module `\sky130_fd_sc_hd__nand2_2'.
+Removing unused module `\sky130_fd_sc_hd__mux4_4'.
+Removing unused module `\sky130_fd_sc_hd__mux4_2'.
+Removing unused module `\sky130_fd_sc_hd__mux4_1'.
+Removing unused module `\sky130_fd_sc_hd__mux2i_4'.
+Removing unused module `\sky130_fd_sc_hd__mux2i_2'.
+Removing unused module `\sky130_fd_sc_hd__mux2i_1'.
+Removing unused module `\sky130_fd_sc_hd__mux2_8'.
+Removing unused module `\sky130_fd_sc_hd__mux2_4'.
+Removing unused module `\sky130_fd_sc_hd__mux2_2'.
+Removing unused module `\sky130_fd_sc_hd__mux2_1'.
+Removing unused module `\sky130_fd_sc_hd__maj3_4'.
+Removing unused module `\sky130_fd_sc_hd__maj3_2'.
+Removing unused module `\sky130_fd_sc_hd__macro_sparecell'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Removing unused module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Removing unused module `\sky130_fd_sc_hd__inv_8'.
+Removing unused module `\sky130_fd_sc_hd__inv_6'.
+Removing unused module `\sky130_fd_sc_hd__inv_4'.
+Removing unused module `\sky130_fd_sc_hd__inv_2'.
+Removing unused module `\sky130_fd_sc_hd__inv_16'.
+Removing unused module `\sky130_fd_sc_hd__inv_12'.
+Removing unused module `\sky130_fd_sc_hd__inv_1'.
+Removing unused module `\sky130_fd_sc_hd__ha_4'.
+Removing unused module `\sky130_fd_sc_hd__ha_2'.
+Removing unused module `\sky130_fd_sc_hd__ha_1'.
+Removing unused module `\sky130_fd_sc_hd__fahcon_1'.
+Removing unused module `\sky130_fd_sc_hd__fahcin_1'.
+Removing unused module `\sky130_fd_sc_hd__fah_1'.
+Removing unused module `\sky130_fd_sc_hd__fa_4'.
+Removing unused module `\sky130_fd_sc_hd__fa_2'.
+Removing unused module `\sky130_fd_sc_hd__fa_1'.
+Removing unused module `\sky130_fd_sc_hd__einvp_8'.
+Removing unused module `\sky130_fd_sc_hd__einvp_4'.
+Removing unused module `\sky130_fd_sc_hd__einvp_2'.
+Removing unused module `\sky130_fd_sc_hd__einvp_1'.
+Removing unused module `\sky130_fd_sc_hd__einvn_8'.
+Removing unused module `\sky130_fd_sc_hd__einvn_4'.
+Removing unused module `\sky130_fd_sc_hd__einvn_2'.
+Removing unused module `\sky130_fd_sc_hd__einvn_1'.
+Removing unused module `\sky130_fd_sc_hd__einvn_0'.
+Removing unused module `\sky130_fd_sc_hd__edfxtp_1'.
+Removing unused module `\sky130_fd_sc_hd__edfxbp_1'.
+Removing unused module `\sky130_fd_sc_hd__ebufn_8'.
+Removing unused module `\sky130_fd_sc_hd__ebufn_4'.
+Removing unused module `\sky130_fd_sc_hd__ebufn_2'.
+Removing unused module `\sky130_fd_sc_hd__ebufn_1'.
+Removing unused module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Removing unused module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Removing unused module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Removing unused module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Removing unused module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Removing unused module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Removing unused module `\sky130_fd_sc_hd__dlxtp_1'.
+Removing unused module `\sky130_fd_sc_hd__dlxtn_4'.
+Removing unused module `\sky130_fd_sc_hd__dlxtn_2'.
+Removing unused module `\sky130_fd_sc_hd__dlxtn_1'.
+Removing unused module `\sky130_fd_sc_hd__dlxbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dlxbn_2'.
+Removing unused module `\sky130_fd_sc_hd__dlxbn_1'.
+Removing unused module `\sky130_fd_sc_hd__dlrtp_4'.
+Removing unused module `\sky130_fd_sc_hd__dlrtp_2'.
+Removing unused module `\sky130_fd_sc_hd__dlrtp_1'.
+Removing unused module `\sky130_fd_sc_hd__dlrtn_4'.
+Removing unused module `\sky130_fd_sc_hd__dlrtn_2'.
+Removing unused module `\sky130_fd_sc_hd__dlrtn_1'.
+Removing unused module `\sky130_fd_sc_hd__dlrbp_2'.
+Removing unused module `\sky130_fd_sc_hd__dlrbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dlrbn_2'.
+Removing unused module `\sky130_fd_sc_hd__dlrbn_1'.
+Removing unused module `\sky130_fd_sc_hd__diode_2'.
+Removing unused module `\sky130_fd_sc_hd__dfxtp_4'.
+Removing unused module `\sky130_fd_sc_hd__dfxtp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfxtp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfxbp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfxbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfstp_4'.
+Removing unused module `\sky130_fd_sc_hd__dfstp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfstp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfsbp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfsbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfrtp_4'.
+Removing unused module `\sky130_fd_sc_hd__dfrtp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfrtp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfrtn_1'.
+Removing unused module `\sky130_fd_sc_hd__dfrbp_2'.
+Removing unused module `\sky130_fd_sc_hd__dfrbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfbbp_1'.
+Removing unused module `\sky130_fd_sc_hd__dfbbn_2'.
+Removing unused module `\sky130_fd_sc_hd__dfbbn_1'.
+Removing unused module `\sky130_fd_sc_hd__decap_8'.
+Removing unused module `\sky130_fd_sc_hd__decap_6'.
+Removing unused module `\sky130_fd_sc_hd__decap_4'.
+Removing unused module `\sky130_fd_sc_hd__decap_3'.
+Removing unused module `\sky130_fd_sc_hd__decap_12'.
+Removing unused module `\sky130_fd_sc_hd__conb_1'.
+Removing unused module `\sky130_fd_sc_hd__clkinvlp_4'.
+Removing unused module `\sky130_fd_sc_hd__clkinvlp_2'.
+Removing unused module `\sky130_fd_sc_hd__clkinv_8'.
+Removing unused module `\sky130_fd_sc_hd__clkinv_4'.
+Removing unused module `\sky130_fd_sc_hd__clkinv_2'.
+Removing unused module `\sky130_fd_sc_hd__clkinv_16'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Removing unused module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Removing unused module `\sky130_fd_sc_hd__clkbuf_8'.
+Removing unused module `\sky130_fd_sc_hd__clkbuf_4'.
+Removing unused module `\sky130_fd_sc_hd__clkbuf_2'.
+Removing unused module `\sky130_fd_sc_hd__clkbuf_16'.
+Removing unused module `\sky130_fd_sc_hd__clkbuf_1'.
+Removing unused module `\sky130_fd_sc_hd__bufinv_8'.
+Removing unused module `\sky130_fd_sc_hd__bufinv_16'.
+Removing unused module `\sky130_fd_sc_hd__bufbuf_8'.
+Removing unused module `\sky130_fd_sc_hd__bufbuf_16'.
+Removing unused module `\sky130_fd_sc_hd__buf_8'.
+Removing unused module `\sky130_fd_sc_hd__buf_6'.
+Removing unused module `\sky130_fd_sc_hd__buf_4'.
+Removing unused module `\sky130_fd_sc_hd__buf_2'.
+Removing unused module `\sky130_fd_sc_hd__buf_16'.
+Removing unused module `\sky130_fd_sc_hd__buf_12'.
+Removing unused module `\sky130_fd_sc_hd__buf_1'.
+Removing unused module `\sky130_fd_sc_hd__and4bb_4'.
+Removing unused module `\sky130_fd_sc_hd__and4bb_2'.
+Removing unused module `\sky130_fd_sc_hd__and4bb_1'.
+Removing unused module `\sky130_fd_sc_hd__and4b_4'.
+Removing unused module `\sky130_fd_sc_hd__and4b_2'.
+Removing unused module `\sky130_fd_sc_hd__and4b_1'.
+Removing unused module `\sky130_fd_sc_hd__and4_4'.
+Removing unused module `\sky130_fd_sc_hd__and4_2'.
+Removing unused module `\sky130_fd_sc_hd__and3b_4'.
+Removing unused module `\sky130_fd_sc_hd__and3b_2'.
+Removing unused module `\sky130_fd_sc_hd__and3b_1'.
+Removing unused module `\sky130_fd_sc_hd__and3_4'.
+Removing unused module `\sky130_fd_sc_hd__and3_2'.
+Removing unused module `\sky130_fd_sc_hd__and2b_4'.
+Removing unused module `\sky130_fd_sc_hd__and2b_2'.
+Removing unused module `\sky130_fd_sc_hd__and2b_1'.
+Removing unused module `\sky130_fd_sc_hd__and2_4'.
+Removing unused module `\sky130_fd_sc_hd__and2_2'.
+Removing unused module `\sky130_fd_sc_hd__and2_1'.
+Removing unused module `\sky130_fd_sc_hd__a41oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a41oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a41oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a41o_4'.
+Removing unused module `\sky130_fd_sc_hd__a41o_2'.
+Removing unused module `\sky130_fd_sc_hd__a41o_1'.
+Removing unused module `\sky130_fd_sc_hd__a32oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a32oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a32oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a32o_4'.
+Removing unused module `\sky130_fd_sc_hd__a32o_2'.
+Removing unused module `\sky130_fd_sc_hd__a32o_1'.
+Removing unused module `\sky130_fd_sc_hd__a31oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a31oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a31o_4'.
+Removing unused module `\sky130_fd_sc_hd__a31o_2'.
+Removing unused module `\sky130_fd_sc_hd__a311oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a311oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a311o_4'.
+Removing unused module `\sky130_fd_sc_hd__a311o_2'.
+Removing unused module `\sky130_fd_sc_hd__a311o_1'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2o_4'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2o_2'.
+Removing unused module `\sky130_fd_sc_hd__a2bb2o_1'.
+Removing unused module `\sky130_fd_sc_hd__a22oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a22oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a22o_4'.
+Removing unused module `\sky130_fd_sc_hd__a22o_2'.
+Removing unused module `\sky130_fd_sc_hd__a222oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a221oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a221oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a221oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a221o_4'.
+Removing unused module `\sky130_fd_sc_hd__a221o_2'.
+Removing unused module `\sky130_fd_sc_hd__a221o_1'.
+Removing unused module `\sky130_fd_sc_hd__a21oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a21oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a21o_4'.
+Removing unused module `\sky130_fd_sc_hd__a21o_2'.
+Removing unused module `\sky130_fd_sc_hd__a21boi_4'.
+Removing unused module `\sky130_fd_sc_hd__a21boi_2'.
+Removing unused module `\sky130_fd_sc_hd__a21boi_1'.
+Removing unused module `\sky130_fd_sc_hd__a21boi_0'.
+Removing unused module `\sky130_fd_sc_hd__a21bo_4'.
+Removing unused module `\sky130_fd_sc_hd__a21bo_2'.
+Removing unused module `\sky130_fd_sc_hd__a21bo_1'.
+Removing unused module `\sky130_fd_sc_hd__a211oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a211oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a211oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a211o_4'.
+Removing unused module `\sky130_fd_sc_hd__a211o_2'.
+Removing unused module `\sky130_fd_sc_hd__a2111oi_4'.
+Removing unused module `\sky130_fd_sc_hd__a2111oi_2'.
+Removing unused module `\sky130_fd_sc_hd__a2111oi_1'.
+Removing unused module `\sky130_fd_sc_hd__a2111o_4'.
+Removing unused module `\sky130_fd_sc_hd__a2111o_2'.
+Removing unused module `\sky130_fd_sc_hd__a2111o_1'.
+Removed 386 unused modules.
+
+17. Executing PROC pass (convert processes to netlists).
+
+17.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+17.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+17.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+17.4. Executing PROC_INIT pass (extract init attributes).
+
+17.5. Executing PROC_ARST pass (detect async resets in processes).
+
+17.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+17.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+17.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+17.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+17.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+17.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+17.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sky130_fd_sc_hd__a22oi_1.
+Optimizing module sky130_fd_sc_hd__nor3_1.
+Optimizing module sky130_fd_sc_hd__o21a_1.
+Optimizing module sky130_fd_sc_hd__a22o_1.
+Optimizing module sky130_fd_sc_hd__xor2_1.
+Optimizing module sky130_fd_sc_hd__maj3_1.
+Optimizing module sky130_fd_sc_hd__nor2b_1.
+Optimizing module sky130_fd_sc_hd__clkinv_1.
+Optimizing module sky130_fd_sc_hd__nand3_1.
+Optimizing module sky130_fd_sc_hd__o21bai_1.
+Optimizing module sky130_fd_sc_hd__o211ai_1.
+Optimizing module sky130_fd_sc_hd__nand2b_1.
+Optimizing module mul12_mac_replay_norules_default.
+Optimizing module sky130_fd_sc_hd__a21oi_1.
+Optimizing module sky130_fd_sc_hd__nor2_1.
+Optimizing module sky130_fd_sc_hd__nor4b_1.
+Optimizing module sky130_fd_sc_hd__a21o_1.
+Optimizing module sky130_fd_sc_hd__a31oi_1.
+Optimizing module sky130_fd_sc_hd__and4_1.
+Optimizing module sky130_fd_sc_hd__nand2_1.
+Optimizing module sky130_fd_sc_hd__a31o_1.
+Optimizing module sky130_fd_sc_hd__or3_1.
+Optimizing module sky130_fd_sc_hd__o31ai_1.
+Optimizing module sky130_fd_sc_hd__a311oi_1.
+Optimizing module sky130_fd_sc_hd__o221ai_1.
+Optimizing module sky130_fd_sc_hd__or4_1.
+Optimizing module sky130_fd_sc_hd__and3_1.
+Optimizing module sky130_fd_sc_hd__lpflow_isobufsrc_1.
+Optimizing module sky130_fd_sc_hd__xnor2_1.
+Optimizing module sky130_fd_sc_hd__a211o_1.
+Optimizing module sky130_fd_sc_hd__lpflow_inputiso1p_1.
+Optimizing module sky130_fd_sc_hd__o21ai_0.
+Optimizing module sky130_fd_sc_hd__xor3_1.
+Optimizing module sky130_fd_sc_hd__a2111oi_0.
+Optimizing module sky130_fd_sc_hd__nand4_1.
+Optimizing module sky130_fd_sc_hd__and2_0.
+Optimizing module sky130_fd_sc_hd__xnor3_1.
+
+18. Executing FLATTEN pass (flatten design).
+Deleting now unused module sky130_fd_sc_hd__a22oi_1.
+Deleting now unused module sky130_fd_sc_hd__nor3_1.
+Deleting now unused module sky130_fd_sc_hd__o21a_1.
+Deleting now unused module sky130_fd_sc_hd__a22o_1.
+Deleting now unused module sky130_fd_sc_hd__xor2_1.
+Deleting now unused module sky130_fd_sc_hd__maj3_1.
+Deleting now unused module sky130_fd_sc_hd__nor2b_1.
+Deleting now unused module sky130_fd_sc_hd__clkinv_1.
+Deleting now unused module sky130_fd_sc_hd__nand3_1.
+Deleting now unused module sky130_fd_sc_hd__o21bai_1.
+Deleting now unused module sky130_fd_sc_hd__o211ai_1.
+Deleting now unused module sky130_fd_sc_hd__nand2b_1.
+Deleting now unused module sky130_fd_sc_hd__a21oi_1.
+Deleting now unused module sky130_fd_sc_hd__nor2_1.
+Deleting now unused module sky130_fd_sc_hd__nor4b_1.
+Deleting now unused module sky130_fd_sc_hd__a21o_1.
+Deleting now unused module sky130_fd_sc_hd__a31oi_1.
+Deleting now unused module sky130_fd_sc_hd__and4_1.
+Deleting now unused module sky130_fd_sc_hd__nand2_1.
+Deleting now unused module sky130_fd_sc_hd__a31o_1.
+Deleting now unused module sky130_fd_sc_hd__or3_1.
+Deleting now unused module sky130_fd_sc_hd__o31ai_1.
+Deleting now unused module sky130_fd_sc_hd__a311oi_1.
+Deleting now unused module sky130_fd_sc_hd__o221ai_1.
+Deleting now unused module sky130_fd_sc_hd__or4_1.
+Deleting now unused module sky130_fd_sc_hd__and3_1.
+Deleting now unused module sky130_fd_sc_hd__lpflow_isobufsrc_1.
+Deleting now unused module sky130_fd_sc_hd__xnor2_1.
+Deleting now unused module sky130_fd_sc_hd__a211o_1.
+Deleting now unused module sky130_fd_sc_hd__lpflow_inputiso1p_1.
+Deleting now unused module sky130_fd_sc_hd__o21ai_0.
+Deleting now unused module sky130_fd_sc_hd__xor3_1.
+Deleting now unused module sky130_fd_sc_hd__a2111oi_0.
+Deleting now unused module sky130_fd_sc_hd__nand4_1.
+Deleting now unused module sky130_fd_sc_hd__and2_0.
+Deleting now unused module sky130_fd_sc_hd__xnor3_1.
+<suppressed ~738 debug messages>
+
+19. Executing OPT pass (performing simple optimizations).
+
+19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules_default.
+<suppressed ~20 debug messages>
+
+19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules_default'.
+Computing hashes of 4144 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Computing hashes of 3360 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Computing hashes of 3281 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Computing hashes of 3268 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+<suppressed ~2628 debug messages>
+Removed a total of 876 cells.
+
+19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules_default..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules_default.
+Performed a total of 0 changes.
+
+19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules_default'.
+Computing hashes of 3268 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Removed a total of 0 cells.
+
+19.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+19.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules_default..
+Removed 3 unused cells and 2342 unused wires.
+<suppressed ~13 debug messages>
+
+19.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules_default.
+
+19.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+19.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules_default..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+19.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules_default.
+Performed a total of 0 changes.
+
+19.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules_default'.
+Computing hashes of 3265 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Removed a total of 0 cells.
+
+19.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+19.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules_default..
+
+19.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules_default.
+
+19.16. Finished fast OPT passes. (There is nothing left to do.)
+
+20. Executing TECHMAP pass (map to technology primitives).
+
+20.1. Executing Verilog-2005 frontend: /opt/homebrew/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/opt/homebrew/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+20.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~77 debug messages>
+
+21. Executing OPT pass (performing simple optimizations).
+
+21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules_default.
+
+21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules_default'.
+Computing hashes of 3265 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Removed a total of 0 cells.
+
+21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \mul12_mac_replay_norules_default..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \mul12_mac_replay_norules_default.
+Performed a total of 0 changes.
+
+21.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\mul12_mac_replay_norules_default'.
+Computing hashes of 3265 cells of `\mul12_mac_replay_norules_default'.
+Finding duplicate cells in `\mul12_mac_replay_norules_default'.
+Removed a total of 0 cells.
+
+21.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+21.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mul12_mac_replay_norules_default..
+
+21.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mul12_mac_replay_norules_default.
+
+21.9. Finished fast OPT passes. (There is nothing left to do.)
+
+22. Executing CHECK pass (checking for obvious problems).
+Checking module mul12_mac_replay_norules_default...
+Found and reported 0 problems.
+
+23. Executing AIGMAP pass (map logic to AIG).
+Module mul12_mac_replay_norules_default: replaced 806 cells with 3224 new cells, skipped 2459 cells.
+  replaced 1 cell types:
+     806 $_OR_
+  not replaced 3 cell types:
+    1002 $_AND_
+     719 $_NOT_
+     738 $scopeinfo
+
+24. Executing AIGER backend.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [12] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [13] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [14] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [15] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [16] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [17] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [18] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [19] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [20] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [21] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [22] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [23] like $anyseq.
+Warning: Treating a total of 48 undriven bits in mul12_mac_replay_norules_default like $anyseq.
+
+25. Executing AIGER backend.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\a [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\b [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [0] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [1] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [2] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [3] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [4] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [5] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [6] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [7] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [8] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [9] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [10] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [11] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [12] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [13] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [14] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [15] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [16] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [17] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [18] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [19] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [20] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [21] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [22] like $anyseq.
+Warning: Treating undriven bit mul12_mac_replay_norules_default.\aux [23] like $anyseq.
+Warning: Treating a total of 48 undriven bits in mul12_mac_replay_norules_default like $anyseq.
+
+Warnings: 98 unique messages, 196 total
+End of script. Logfile hash: 5da2ff8478, time: 0.25s, user: 0.25s, system: 0.01s, MEM: 66.62 MB peak
+Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)
+Time spent: 39% 7x read_verilog (0 sec), 12% 6x opt_clean (0 sec), ...

@@ -1,0 +1,2 @@
+======== ABC command line "cec -T 20 gold.aig gate.aig"
+Networks are equivalent.  Time =     1.46 sec

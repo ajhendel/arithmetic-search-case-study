@@ -1,0 +1,1 @@
+read_verilog cells.v miter.v; attrmap -modattr -remove keep_hierarchy=1; hierarchy -check -top miter; proc; flatten; opt -keepdc; techmap; opt -keepdc; check -assert; sat -enable_undef -set-def-inputs -timeout 20 -prove bad 0 -show-inputs -show-outputs

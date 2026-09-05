@@ -1,0 +1,18 @@
+OpenSTA 3.1.0  Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+mul24_mac_ufomac_brentkung_mux_classic: worst arrival 6070.0 ps at y[49], area 30501.75 um2
+mul24_mac_ufomac_brentkung_mux_default: worst arrival 9590.0 ps at y[45], area 19842.78 um2
+mul24_mac_ufomac_brentkung_xormaj_classic: worst arrival 5940.0 ps at y[49], area 32837.74 um2
+mul24_mac_ufomac_brentkung_xormaj_default: worst arrival 11940.0 ps at y[51], area 19974.16 um2
+mul24_mac_ufomac_koggestone_mux_classic: worst arrival 5650.0 ps at y[49], area 33737.36 um2
+mul24_mac_ufomac_koggestone_mux_default: worst arrival 9390.0 ps at y[52], area 21893.50 um2
+mul24_mac_ufomac_koggestone_xormaj_classic: worst arrival 6260.0 ps at y[49], area 37818.77 um2
+mul24_mac_ufomac_koggestone_xormaj_default: worst arrival 8070.0 ps at y[50], area 22024.87 um2
+mul24_mac_ufomac_sklansky_mux_classic: worst arrival 6970.0 ps at y[49], area 31540.25 um2
+mul24_mac_ufomac_sklansky_mux_default: worst arrival 12150.0 ps at y[49], area 20323.24 um2
+mul24_mac_ufomac_sklansky_xormaj_classic: worst arrival 6700.0 ps at y[49], area 34030.14 um2
+mul24_mac_ufomac_sklansky_xormaj_default: worst arrival 13260.0 ps at y[49], area 20091.77 um2

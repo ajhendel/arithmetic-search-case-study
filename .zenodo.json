@@ -1,0 +1,10 @@
+{
+  "title": "Arithmetic Search Case Study: Verified MAC Benchmarks and a Negative Frontier Result",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [{"name": "Hendel, Andrew"}],
+  "description": "<p>A completed arithmetic topology-search experiment, released as software, exact multiply-accumulate benchmarks, verification tools, selected synthesis/global-route evidence, and a short negative-result report.</p><p>A bounded prior-art-derived control is 8.13% faster and 0.21% smaller than the evolved candidate in the tested default flow, eliminating its earlier finite-set Pareto-frontier advantage. The comparison uses ARITH-DAS's UFO-MAC compressor replication with an adapted full-output contract and a time-limited solver; it does not reproduce either complete method's best performance.</p><p>The research line is closed. No novel architecture, state-of-the-art performance, physical signoff, fabricated-silicon result, or peer review is claimed. Development and writing used AI coding assistance. Vendored ARITH-DAS code retains its MIT license; original local material is Apache-2.0.</p>",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": ["arithmetic circuits", "multiply-accumulate", "formal verification", "negative results", "reproducible research"]
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software-and-evidence artifact and the exact archived version used."
+type: software
+title: "Arithmetic Search Case Study: Verified MAC Benchmarks and a Negative Frontier Result"
+version: "1.0.0"
+authors:
+  - family-names: Hendel
+    given-names: Andrew
+repository-code: "https://github.com/ajhendel/arithmetic-search-case-study"
+license: Apache-2.0
+abstract: "A completed arithmetic topology-search experiment. Verified multiply-accumulate benchmarks and bounded prior-art comparisons show that a stronger control eliminates an evolved candidate's initial finite-set Pareto-frontier advantage. Includes generator, proof tools, selected evidence, and a short archival report. No novelty, signoff, or fabricated-silicon claim."
+keywords:
+  - arithmetic circuits
+  - multiply-accumulate
+  - formal verification
+  - negative results
+  - reproducible research

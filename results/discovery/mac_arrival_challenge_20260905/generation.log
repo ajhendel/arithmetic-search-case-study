@@ -1,0 +1,4 @@
+   Compiling tinytapeout2-search v0.1.0 (/Users/andrewhendel/CascadeProjects/tinytapeout2)
+    Finished `release` profile [optimized] target(s) in 6.41s
+     Running `target/release/examples/mac_schedule_controls results/discovery/mac_crosswidth_20260905/evo608_heldout/genome.json results/discovery/mac_arrival_challenge_20260905/generated`
+Verified and emitted 12 arrival-aware W=24 controls

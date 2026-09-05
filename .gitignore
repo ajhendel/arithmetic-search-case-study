@@ -1,0 +1,8 @@
+/target/
+/pdk/
+__pycache__/
+*.pyc
+results/**/mapped/
+*.odb
+*.def
+*.spef

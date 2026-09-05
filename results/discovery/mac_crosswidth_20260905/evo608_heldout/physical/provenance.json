@@ -1,0 +1,15 @@
+{
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)",
+  "docker_image": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "genome_sha256": "de7e3943afd7c0d37a93de6baec583d6c8214195e6a035451b388b84f5d21bc4",
+  "source_sha256": {
+    "src/evo.rs": "a7e4492656b97df85c1b45a88853be078bac6c41ff4c727dcb66295a1f3edb5b",
+    "src/gen.rs": "dc87008c8ac758ae8a9d2dcf7e7c0418161eff29794ffd47846eccb95935a99a",
+    "src/lib.rs": "811f42ff0b5c5c5361e52ecd8a7f246edfa89e23256fd6b8f3b9a64093f4bf8e",
+    "src/mac.rs": "e9e3fecea7a5446ca3ffda80deab39cc6becb4ed935e10d6bececdb285aeac36",
+    "src/main.rs": "381271eaf99be6d77f790e23ddd0e4f808e912ccc2a8d7c816717e3757e0590d",
+    "src/multiroot.rs": "2c7aea162fbdbdd2d2b1eab2b2ecc5b2aba5ecb86bc7d1f3bed0f809b002ba7d",
+    "src/workload.rs": "5d1891c4fb7da24ecaf362f5e41b2fcc5e7b443cf551ba63167e7e78a8aa0453"
+  }
+}

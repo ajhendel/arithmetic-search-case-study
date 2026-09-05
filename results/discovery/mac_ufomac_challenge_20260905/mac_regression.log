@@ -1,0 +1,13 @@
+   Compiling tinytapeout2-search v0.1.0 (/Users/andrewhendel/CascadeProjects/tinytapeout2)
+    Finished `release` profile [optimized] target(s) in 5.84s
+     Running unittests src/lib.rs (target/release/deps/tinytapeout2_search-6d9ef1848dfc06b4)
+
+running 5 tests
+test mac::tests::diversity_search_retains_multiple_niches_without_routing_selection ... ok
+test mac::tests::frozen_genome_replays_and_rejects_invalid_policies ... ok
+test mac::tests::mutation_preserves_the_mac_contract ... ok
+test mac::tests::ripple_and_prefix_mac_are_exhaustively_exact_at_four_bits ... ok
+test mac::tests::wide_mac_verifies_high_roots_and_detects_corruption ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 27 filtered out; finished in 2.72s
+

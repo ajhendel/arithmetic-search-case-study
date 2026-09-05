@@ -1,0 +1,46 @@
+{
+  "recorded_before_generation_utc": "2026-09-05T09:42:42.087132+00:00",
+  "base_commit": "64032d92efe667daf91c60376df14a9b4fc56ce2",
+  "candidate_genome_sha256": "de7e3943afd7c0d37a93de6baec583d6c8214195e6a035451b388b84f5d21bc4",
+  "runner_sha256": "c0ed625790c64ebff8264f67c56fcb309c0cf8e531bda3e5b1bbaac84548e8eb",
+  "generator_sha256": "30fec002f47ef16826a40bbfe6290b7360717bb54f8e6230a4455798bf9e269d",
+  "core_generator_sha256": "a7e4492656b97df85c1b45a88853be078bac6c41ff4c727dcb66295a1f3edb5b",
+  "image_id": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)",
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "flow_sha256": "845fb4cb0341acf144d5bc9b31657446b3ea62a3637577d6944ac7f8f2badfc8",
+  "sta_sha256": "4a1d54c95b57ebbaf897af65e895ee5e7ed5ab735a1e8589089be0e6c8e75e64",
+  "recipes": [
+    "default",
+    "classic"
+  ],
+  "width": 24,
+  "control_actions": [
+    "Dadda",
+    "FullNoHa"
+  ],
+  "control_pick": "Earliest",
+  "control_adders": [
+    "sklansky",
+    "brentkung",
+    "koggestone"
+  ],
+  "control_full_adders": [
+    "Mux",
+    "XorMaj"
+  ],
+  "fixed": "candidate root/fusion/rounding/clamp/status plan; no rules on controls; same-stage setting unchanged",
+  "expected_designs": 15,
+  "expected_mappings": 30,
+  "expected_routes": 30,
+  "primary_endpoint": "candidate nondomination against all 12 arrival controls and behavioral reference under each recipe after mapping and routing",
+  "route_selection": "all designs, utilization 45, placement density 0.55",
+  "concurrent_jobs": 1,
+  "container_cpus": 2,
+  "openroad_threads": 2,
+  "yosys_abc_threads": 1,
+  "cargo_build_jobs": 2,
+  "mapping_timeout_seconds": 60,
+  "route_timeout_seconds": 120,
+  "interpretation": "finite coarse-arrival comparison, not a modern-optimizer or full three-greedy benchmark"
+}

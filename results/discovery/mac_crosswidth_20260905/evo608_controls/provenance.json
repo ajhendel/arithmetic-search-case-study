@@ -1,0 +1,16 @@
+{
+  "base_commit": "6487e9b914a6b00bf31144f255a23a6da6ad0d3d",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)",
+  "docker_image": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "candidate_sha256": "de7e3943afd7c0d37a93de6baec583d6c8214195e6a035451b388b84f5d21bc4",
+  "widths": [
+    8,
+    16
+  ],
+  "recipes": [
+    "default",
+    "classic"
+  ],
+  "control_plan": "fused_fast_shared"
+}

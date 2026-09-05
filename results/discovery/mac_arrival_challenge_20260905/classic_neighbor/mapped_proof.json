@@ -1,0 +1,14 @@
+{
+  "source_sha256": "3c8e01b7cd150c364c9f30ba30a237d19dcff508f39e6bda76fa8684405d066d",
+  "mapped_sha256": "50700c3fe0db7605357fa731a440b1a82ca3f66c90c4e4273d5a6a895e93979b",
+  "cells_sha256": "4eb6650fe2dd896fac9f60d3b03378eada81bb24b65f914f0c5e9736deb307dc",
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "width": 24,
+  "status": "proved",
+  "aig_sha256": {
+    "gold.aig": "544f50015fdb5428945e2962390341124ec792532ca186b02c47e34be1229f84",
+    "gate.aig": "49ecfa5c8ccd2610f5d6ebd1bfd1ddb0950fdf5c29e57914e180598d331ed01f"
+  },
+  "checked_inputs": 96,
+  "checked_outputs": 75
+}

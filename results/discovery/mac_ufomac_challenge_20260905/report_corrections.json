@@ -1,0 +1,70 @@
+{
+  "reason": "The initial routed table inherited mapped worst_output; corrected endpoints from retained route reports, with no changed timing/area or new measurement. Future runner now parses routed endpoints.",
+  "executed_runner_snapshot": "results/discovery/mac_ufomac_challenge_20260905/executed_compare_mac_ufomac.py",
+  "executed_runner_sha256": "03f6023b4377a80c08de1e463f4c109e94b41ba3cc7aa58f48ab7e6d80c78822",
+  "updated_runner_sha256": "046f657f6d5176e8d6f3f6c07e9307d83a8ab7e1dd2bf10bd657435bda517f7b",
+  "original_routed_table_sha256": "a566b66fd69dcb4318d371e74791b0a809fdab258f36fc6663e9f444f54d1c8e",
+  "corrected_routed_table_sha256": "a34ff07241c256b9e829a14ceaccca32e84b670d16e762bd0f5c9ce011becd82",
+  "changed_endpoints": [
+    {
+      "module": "mul24_mac_ufomac_brentkung_mux_default",
+      "mapped_endpoint": "y[45]",
+      "routed_endpoint": "y[69]"
+    },
+    {
+      "module": "mul24_mac_ufomac_brentkung_mux_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[62]"
+    },
+    {
+      "module": "mul24_mac_ufomac_brentkung_xormaj_default",
+      "mapped_endpoint": "y[51]",
+      "routed_endpoint": "y[72]"
+    },
+    {
+      "module": "mul24_mac_ufomac_brentkung_xormaj_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[57]"
+    },
+    {
+      "module": "mul24_mac_ufomac_koggestone_mux_default",
+      "mapped_endpoint": "y[52]",
+      "routed_endpoint": "y[72]"
+    },
+    {
+      "module": "mul24_mac_ufomac_koggestone_mux_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[66]"
+    },
+    {
+      "module": "mul24_mac_ufomac_koggestone_xormaj_default",
+      "mapped_endpoint": "y[50]",
+      "routed_endpoint": "y[51]"
+    },
+    {
+      "module": "mul24_mac_ufomac_koggestone_xormaj_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[56]"
+    },
+    {
+      "module": "mul24_mac_ufomac_sklansky_mux_default",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[71]"
+    },
+    {
+      "module": "mul24_mac_ufomac_sklansky_mux_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[70]"
+    },
+    {
+      "module": "mul24_mac_ufomac_sklansky_xormaj_default",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[72]"
+    },
+    {
+      "module": "mul24_mac_ufomac_sklansky_xormaj_classic",
+      "mapped_endpoint": "y[49]",
+      "routed_endpoint": "y[57]"
+    }
+  ]
+}

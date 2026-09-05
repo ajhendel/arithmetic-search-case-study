@@ -1,0 +1,1 @@
+{"accumulator_carry":"Ripple","arithmetic":{"adder":"koggestone","default_action":"Dadda","default_carry_same_stage":false,"default_pick":"Earliest","drop16":0,"fa_impl":"XorMaj","rules":[]},"fuse_accumulator":true,"round_carry":"Prefix","saturation_impl":"OrMask","saturation_reduction":"Balanced","share_saturation":true,"sticky_reduction":"Balanced"}

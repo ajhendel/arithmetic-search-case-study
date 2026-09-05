@@ -1,0 +1,13 @@
+read_verilog cells.v gold.v
+attrmap -modattr -remove keep_hierarchy=1
+hierarchy -check -top mul24_mac_replay_candidate
+proc; flatten; opt -keepdc; techmap; opt -keepdc; check -assert; aigmap
+write_aiger -ascii -symbols gold.aag
+write_aiger -symbols gold.aig
+design -reset
+read_liberty -ignore_miss_func library.lib
+read_verilog gate.v
+hierarchy -check -top mul24_mac_replay_candidate_classic
+proc; flatten; opt -keepdc; techmap; opt -keepdc; check -assert; aigmap
+write_aiger -ascii -symbols gate.aag
+write_aiger -symbols gate.aig

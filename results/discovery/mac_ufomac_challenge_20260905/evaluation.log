@@ -1,0 +1,27 @@
+Six controls passed simulation and composed proof; frozen candidate byte-identical
+Mapped/proved 1/12 mul24_mac_ufomac_brentkung_mux_default
+Mapped/proved 2/12 mul24_mac_ufomac_brentkung_mux_classic
+Mapped/proved 3/12 mul24_mac_ufomac_brentkung_xormaj_default
+Mapped/proved 4/12 mul24_mac_ufomac_brentkung_xormaj_classic
+Mapped/proved 5/12 mul24_mac_ufomac_koggestone_mux_default
+Mapped/proved 6/12 mul24_mac_ufomac_koggestone_mux_classic
+Mapped/proved 7/12 mul24_mac_ufomac_koggestone_xormaj_default
+Mapped/proved 8/12 mul24_mac_ufomac_koggestone_xormaj_classic
+Mapped/proved 9/12 mul24_mac_ufomac_sklansky_mux_default
+Mapped/proved 10/12 mul24_mac_ufomac_sklansky_mux_classic
+Mapped/proved 11/12 mul24_mac_ufomac_sklansky_xormaj_default
+Mapped/proved 12/12 mul24_mac_ufomac_sklansky_xormaj_classic
+Routed 1/12 mul24_mac_ufomac_brentkung_mux_default: 14010.0 ps / 19843 um2
+Routed 2/12 mul24_mac_ufomac_brentkung_mux_classic: 10850.0 ps / 30502 um2
+Routed 3/12 mul24_mac_ufomac_brentkung_xormaj_default: 15900.0 ps / 19974 um2
+Routed 4/12 mul24_mac_ufomac_brentkung_xormaj_classic: 10270.0 ps / 32838 um2
+Routed 5/12 mul24_mac_ufomac_koggestone_mux_default: 12580.0 ps / 21893 um2
+Routed 6/12 mul24_mac_ufomac_koggestone_mux_classic: 9750.0 ps / 33737 um2
+Routed 7/12 mul24_mac_ufomac_koggestone_xormaj_default: 12100.0 ps / 22025 um2
+Routed 8/12 mul24_mac_ufomac_koggestone_xormaj_classic: 10840.0 ps / 37819 um2
+Routed 9/12 mul24_mac_ufomac_sklansky_mux_default: 20720.0 ps / 20323 um2
+Routed 10/12 mul24_mac_ufomac_sklansky_mux_classic: 12100.0 ps / 31540 um2
+Routed 11/12 mul24_mac_ufomac_sklansky_xormaj_default: 19700.0 ps / 20092 um2
+Routed 12/12 mul24_mac_ufomac_sklansky_xormaj_classic: 12660.0 ps / 34030 um2
+default candidate dominators: ['mul24_mac_ufomac_brentkung_mux_default']
+classic candidate dominators: []

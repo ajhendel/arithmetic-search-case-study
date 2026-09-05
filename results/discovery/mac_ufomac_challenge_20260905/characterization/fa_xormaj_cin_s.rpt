@@ -1,0 +1,16 @@
+Startpoint: cin (input port)
+Endpoint: s (output port)
+Path Group: unconstrained
+Path Type: max
+
+      Delay        Time   Description
+-----------------------------------------------------------------
+   0.000000    0.000000 ^ input external delay
+   0.000000    0.000000 ^ cin (in)
+   0.441471    0.441471 v _0_/X (sky130_fd_sc_hd__xor3_1)
+   0.000000    0.441471 v s (out)
+               0.441471   data arrival time
+-----------------------------------------------------------------
+(Path is unconstrained)
+
+

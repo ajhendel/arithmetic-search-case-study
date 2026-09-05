@@ -1,0 +1,52 @@
+{
+  "recorded_before_generation_utc": "2026-09-05T09:42:42.087132+00:00",
+  "base_commit": "64032d92efe667daf91c60376df14a9b4fc56ce2",
+  "candidate_genome_sha256": "de7e3943afd7c0d37a93de6baec583d6c8214195e6a035451b388b84f5d21bc4",
+  "runner_sha256": "227d0daaf0db88855a90ec3fd1cd8e507b05fd01e7cc46ba8caf61d8a893917c",
+  "generator_sha256": "30fec002f47ef16826a40bbfe6290b7360717bb54f8e6230a4455798bf9e269d",
+  "core_generator_sha256": "a7e4492656b97df85c1b45a88853be078bac6c41ff4c727dcb66295a1f3edb5b",
+  "image_id": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "yosys": "Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)",
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "flow_sha256": "845fb4cb0341acf144d5bc9b31657446b3ea62a3637577d6944ac7f8f2badfc8",
+  "sta_sha256": "4a1d54c95b57ebbaf897af65e895ee5e7ed5ab735a1e8589089be0e6c8e75e64",
+  "recipes": [
+    "default",
+    "classic"
+  ],
+  "width": 24,
+  "control_actions": [
+    "Dadda",
+    "FullNoHa"
+  ],
+  "control_pick": "Earliest",
+  "control_adders": [
+    "sklansky",
+    "brentkung",
+    "koggestone"
+  ],
+  "control_full_adders": [
+    "Mux",
+    "XorMaj"
+  ],
+  "fixed": "candidate root/fusion/rounding/clamp/status plan; no rules on controls; same-stage setting unchanged",
+  "expected_designs": 1,
+  "expected_mappings": 0,
+  "expected_routes": 1,
+  "primary_endpoint": "candidate nondomination against all 12 arrival controls and behavioral reference under each recipe after mapping and routing",
+  "route_selection": "all designs, utilization 45, placement density 0.55",
+  "concurrent_jobs": 1,
+  "container_cpus": 2,
+  "openroad_threads": 2,
+  "yosys_abc_threads": 1,
+  "cargo_build_jobs": 2,
+  "mapping_timeout_seconds": 60,
+  "route_timeout_seconds": 120,
+  "interpretation": "finite coarse-arrival comparison, not a modern-optimizer or full three-greedy benchmark",
+  "recorded_before_supplement_routing_utc": "2026-09-05T09:52:38.292610+00:00",
+  "selection": "sole dominator in committed W=24/classic pre-layout control table; supplementary to the 30-job primary challenge",
+  "source_sha256": "3c8e01b7cd150c364c9f30ba30a237d19dcff508f39e6bda76fa8684405d066d",
+  "mapped_sha256": "50700c3fe0db7605357fa731a440b1a82ca3f66c90c4e4273d5a6a895e93979b",
+  "module": "mul24_mac_replay_ctrl_wallace_brentkung_mux_classic",
+  "primary_protocol_sha256": "0bc632bfbb0fb0588d727329cec1d22d5866c77aaf061561b778a31ef652a5b8"
+}

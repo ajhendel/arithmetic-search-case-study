@@ -1,0 +1,13 @@
+{
+  "model": "compressor_assignment_49",
+  "elapsed_seconds": 0.9665965409949422,
+  "status": "Optimal",
+  "solution_status": "Optimal Solution Found",
+  "objective": 6.0,
+  "variables": 2353,
+  "constraints": 2450,
+  "threads": 1,
+  "mip_gap": 0.0,
+  "mip_dual_bound": 6.0,
+  "validated_feasible": true
+}

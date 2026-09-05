@@ -1,0 +1,49 @@
+Startpoint: a[23] (input port)
+Endpoint: y[57] (output port)
+Path Group: path delay
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ input external delay
+   0.00    0.00 ^ a[23] (in)
+   0.55    0.55 v _10565_/Y (sky130_fd_sc_hd__clkinv_1)
+   0.79    1.34 ^ _13449_/Y (sky130_fd_sc_hd__o211ai_1)
+   0.19    1.53 v _13450_/Y (sky130_fd_sc_hd__nand2_1)
+   0.10    1.63 ^ _13451_/Y (sky130_fd_sc_hd__nand2_1)
+   0.27    1.90 v _13454_/Y (sky130_fd_sc_hd__nand4_1)
+   0.23    2.13 ^ _07226_/Y (sky130_fd_sc_hd__nand2_1)
+   0.14    2.27 v _07228_/Y (sky130_fd_sc_hd__nand3_1)
+   0.46    2.73 ^ _07237_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.34    3.07 v _07244_/Y (sky130_fd_sc_hd__a41oi_1)
+   0.14    3.21 ^ _07245_/Y (sky130_fd_sc_hd__nand2_1)
+   0.26    3.47 v _07246_/Y (sky130_fd_sc_hd__nand3_1)
+   0.22    3.69 ^ _07441_/Y (sky130_fd_sc_hd__nand2_1)
+   0.30    3.99 v _07449_/Y (sky130_fd_sc_hd__nand4_1)
+   0.23    4.22 ^ _07451_/Y (sky130_fd_sc_hd__nand3_1)
+   0.33    4.56 v _07453_/Y (sky130_fd_sc_hd__nand4_1)
+   0.64    5.20 ^ _07461_/Y (sky130_fd_sc_hd__a41oi_1)
+   0.51    5.71 v _07475_/Y (sky130_fd_sc_hd__o21ai_0)
+   1.41    7.12 ^ _07667_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.87    7.99 v _09936_/Y (sky130_fd_sc_hd__nand2_1)
+   0.28    8.27 ^ _09956_/Y (sky130_fd_sc_hd__nand2_1)
+   0.19    8.46 v _09957_/Y (sky130_fd_sc_hd__nand3_1)
+   0.38    8.84 ^ _10273_/Y (sky130_fd_sc_hd__a22oi_1)
+   0.19    9.03 v _10293_/Y (sky130_fd_sc_hd__nand4_1)
+   0.26    9.29 ^ _10299_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.12    9.41 v _10383_/Y (sky130_fd_sc_hd__nand4_1)
+   2.39   11.80 ^ _10400_/Y (sky130_fd_sc_hd__nor3_1)
+   0.86   12.65 v _10538_/Y (sky130_fd_sc_hd__nand4_1)
+   0.00   12.66 v y[57] (out)
+          12.66   data arrival time
+
+  10.00   10.00   max_delay
+   0.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+         -12.66   data arrival time
+---------------------------------------------------------
+          -2.66   slack (VIOLATED)
+
+

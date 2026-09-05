@@ -1,0 +1,18 @@
+{
+  "recorded_before_routing_utc": "2026-09-05T08:37:59.995905+00:00",
+  "base_commit": "86cb49724320cb23e16bacd48e0a0833ba12c6dd",
+  "image_id": "sha256:696763e68f34723118155f28f86851077847948e139d1495c67860066028b386",
+  "flow_sha256": "845fb4cb0341acf144d5bc9b31657446b3ea62a3637577d6944ac7f8f2badfc8",
+  "runner_sha256": "ee9fb32d6e37cedd7962f9b48d8c84e796bc30cf4b66176345dd0177171e24a0",
+  "selection": "all 30 matched textbook trunks, candidate, and ablation at utilization 45; candidate/ablation plus pre-layout fastest and area-bracketing control frontier at 35 and 50",
+  "primary_endpoint": "candidate dominance against all 30 controls at utilization 45",
+  "secondary_endpoint": "paired candidate/no-rule delay and area changes at all three utilizations",
+  "interpretation": "floorplan-size and resulting placement/pin/routing sensitivity, not independent seeds, statistical replicates, or isolated cell-density effects",
+  "placement_target_density": 0.55,
+  "failures": "record failed or timed-out jobs; exclude them from comparisons and label the challenge incomplete",
+  "timeout_seconds_per_design": 120,
+  "expected_jobs": 42,
+  "cpu_limit": 2,
+  "openroad_threads": 2,
+  "concurrent_jobs": 1
+}

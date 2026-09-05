@@ -1,0 +1,4 @@
+   Compiling tinytapeout2-search v0.1.0 (/Users/andrewhendel/CascadeProjects/tinytapeout2)
+    Finished `release` profile [optimized] target(s) in 5.69s
+     Running `target/release/examples/mac_import_ufomac results/discovery/mac_crosswidth_20260905/evo608_heldout/genome.json results/discovery/mac_ufomac_challenge_20260905/optimized_graph.json results/discovery/mac_ufomac_challenge_20260905/rtl`
+Six imported controls verified; original candidate unchanged byte for byte
