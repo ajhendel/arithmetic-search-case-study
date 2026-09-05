@@ -1,7 +1,66 @@
 # Arithmetic Search Case Study
 
-A completed experiment in arithmetic topology search, with verified
-multiply-accumulate benchmarks and a negative result from stronger comparisons.
+A reusable MAC benchmark bundle and a documented process for generating,
+checking, mapping, and comparing arithmetic circuits. The archive includes
+38 Verilog designs with the same output contract, specialized correctness
+tools, and retained SKY130 comparison evidence.
+
+The motivating search experiment ended with a stronger control beating the
+evolved candidate. The reusable output is the benchmark and evaluation process;
+no novel optimizer or performance advantage is claimed.
+
+## What you can pick up and use
+
+| Artifact | Possible use | Scope |
+|---|---|---|
+| [MAC24 benchmark](benchmarks/mac24/README.md) | Compare a compressor-tree generator or synthesis recipe against designs with the same arithmetic interface. | 38 designs: candidate, ablation, 30 textbook controls, and six bounded UFO-MAC-derived controls. Includes a behavioral reference. |
+| [Composed checker](scripts/prove_mac_composed.py) | Check partial-product coverage and weighted conservation, then SAT-prove the output tail. | Accepts the explicit generated cell dialect; not arbitrary Verilog. See the [trust boundary](docs/MAC_COMPOSED_PROOF.md). |
+| [Mapped equivalence tooling](scripts/prove_mac_mapped.py) | Compare selected mapped netlists with the structural RTL through ABC equivalence. | Campaign-specific paths and matching library inputs require adaptation for a new project. |
+| [External-graph importer](examples/mac_import_ufomac.rs) and [comparison runner](scripts/compare_mac_ufomac.py) | Attach a shared output contract to an imported compressor graph and evaluate it under the same mapping and routing recipes. | Uses an adapted, bounded ARITH-DAS replication of UFO-MAC; see the [adapter](integrations/arithdas/README.md). |
+| [Rust generator](src/) | Explore another scheduling rule or generate related arithmetic structures. | Research code with a historical crate name and project-specific representations. |
+
+The MAC contract uses unsigned 24-bit operands and a 48-bit accumulator, with
+all 75 outputs live: the full sum, rounded and saturated output, and status.
+The serial smoke test checks the original candidate and ablation on 4,106
+deterministic vectors each. It does not test all 38 designs or replace formal
+proof. Recorded proofs and their scope are linked from the benchmark guide.
+The composed and mapped checkers also have retained test sources.
+
+## Start with the benchmark
+
+[Download v1.0.0 and its portable benchmark](https://github.com/ajhendel/arithmetic-search-case-study/releases/tag/v1.0.0),
+or create a bundle from this checkout:
+
+```sh
+# Package retained Verilog and evidence; no Rust, synthesis, or PDK required.
+python3 scripts/package_mac24_benchmark.py /tmp/mac24-benchmark.tar.gz
+
+# Optional integration check of the candidate and ablation only.
+# Requires Python, Icarus Verilog, and nice; runs serially.
+python3 benchmarks/mac24/smoke.py
+```
+
+The [benchmark guide](benchmarks/mac24/README.md) describes extraction, ports,
+and reference behavior. [REPRODUCING.md](REPRODUCING.md) separates lightweight
+replay from optional physical evaluation. The recorded process is:
+
+1. Generate or import designs with the same full-output contract.
+2. Check arithmetic structure and prove the tail.
+3. Map the designs and check mapped equivalence.
+4. Route under common settings and compare area/delay estimates.
+5. Retain tool identities, commands, solver limits, and outcomes.
+
+The RTL and structural checker can be inspected without a PDK. The retained
+physical results use SKY130 and specific recorded recipes; they do not establish
+transfer to other libraries or flows. The main numerical comparison below uses
+one default setting. Other retained experiments do not constitute a broad
+cross-flow robustness study. Historical runners use fixed paths and external
+EDA dependencies, so this is not a turnkey toolchain installation.
+
+No experiment is launched automatically. Use at most two Cargo jobs, run solver
+and physical jobs one at a time, and limit physical jobs to two cores.
+
+## What the comparison found
 
 A frozen evolved scheduling rule (`evo608`) initially survived a finite
 SKY130 area/delay frontier. A bounded prior-art compressor optimizer subsequently
@@ -23,35 +82,6 @@ Read the [short report](REPORT.md), [full comparison](results/discovery/mac_ufom
 and [proof scope](docs/MAC_COMPOSED_PROOF.md).
 
 ![Measured frontier](results/discovery/mac_ufomac_challenge_20260905/frontier.png)
-
-## What is reusable
-
-- The Rust arithmetic generator and a frozen external-graph importer.
-- Exact unsigned 24-bit multiply / 48-bit accumulate / round / saturate / status
-  benchmarks, exposing all 75 output bits.
-- Independent compressor-conservation and SAT-tail correctness checks, plus
-  mapped-netlist equivalence tooling.
-- Frozen genomes, prior-art attribution, scripts, tool identities, and selected
-  synthesis/global-route evidence including negative outcomes.
-
-The portable benchmark contains the candidate, its exact no-rule sibling,
-30 original textbook controls, and six bounded-optimizer controls. The separate
-12-control arrival-aware campaign is retained in the research evidence.
-
-## Start here
-
-```sh
-# Bundle the ready-to-use Verilog; no search, synthesis, or PDK required.
-python3 scripts/package_mac24_benchmark.py /tmp/mac24-benchmark.tar.gz
-
-# Quick integration check of the original candidate and ablation only.
-# Requires Python, Icarus Verilog, and nice; runs serially.
-python3 benchmarks/mac24/smoke.py
-```
-
-[REPRODUCING.md](REPRODUCING.md) separates lightweight replay from optional
-physical reproduction. No experiment is launched automatically. For local builds,
-use at most two Cargo jobs; run solver and physical jobs one at a time.
 
 ## Status, citation, and scope
 

@@ -24,7 +24,7 @@
     },
     "benchmarks/mac24/README.md": {
       "source_sha256": "76e066155ee937ab31904ad6f8362be60d0c1b6fe5bec709aacaf6e6c8b2fda9",
-      "release_sha256": "b579e92cf994e02a61b14241eae796a9468d941fcfa241cef86b7c0b0c7eb41a",
+      "release_sha256": "34cbd5a558336030a9bdf302423d7c216ae37ef341be69099b57368c5f9ee7df",
       "kind": "document_adaptation"
     },
     "benchmarks/mac24/reference.v": {
@@ -3969,7 +3969,7 @@
       "kind": "release_document"
     },
     "README.md": {
-      "release_sha256": "e6d31e7b3ac57ded07786a9e70e8c54add0af7f1627321a1e2f0566cf79c1fd6",
+      "release_sha256": "e671e89f25fac443981a460767520edb8fb1417058bc849ccce9008d75a1940c",
       "kind": "release_document"
     },
     "REPRODUCING.md": {

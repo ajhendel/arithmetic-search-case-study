@@ -1,8 +1,9 @@
 # Unsigned MAC24 topology benchmark
 
-This portable benchmark contains evo608, its exact no-rule sibling, and 30
-textbook controls with the same output/fusion plan. It also includes six
-bounded UFO-MAC-derived controls from the stronger prior-art comparison.
+This portable benchmark contains 38 designs with the same arithmetic interface:
+evo608, its exact no-rule sibling, 30 textbook controls with the same
+output/fusion plan, and six bounded UFO-MAC-derived controls. It also includes
+an independent behavioral reference and a candidate/ablation smoke test.
 The exported bundle needs
 no Rust build, Docker, PDK, or access to the research repository for RTL use.
 It is an evaluation artifact. A composed arithmetic-conservation/SAT proof
@@ -10,19 +11,36 @@ now covers candidate and sibling structural RTL at W=24. Direct ABC CEC
 also proves the frozen default/classic SKY130 mappings equivalent to that
 RTL. Physical signoff remains a separate obligation.
 
-From the research repository, create the standalone bundle:
+## Obtain and check the bundle
+
+Download `mac24-benchmark-v1.0.0.tar.gz` from the
+[public release](https://github.com/ajhendel/arithmetic-search-case-study/releases/tag/v1.0.0),
+or create a fresh bundle from the root of the public source checkout:
 
 ```sh
-python3 scripts/package_mac24_benchmark.py
+python3 scripts/package_mac24_benchmark.py /tmp/mac24-benchmark.tar.gz
 ```
 
-Extract `/tmp/tinytapeout2-mac24.tar.gz` and run `python3 smoke.py` inside
-`mac24/`. Requires Python 3, Icarus Verilog (`iverilog`, `vvp`), and `nice`.
-The smoke test runs serially at low priority with compilation/simulation
-timeouts. It checks both candidate and sibling against independent behavioral
-RTL on 4,106 deterministic vectors including carry, rounding, saturation, and
-unsaturated cases. This is a quick integration check, not exhaustive proof.
-In the original repository use `python3 benchmarks/mac24/smoke.py`.
+For a freshly generated bundle, extract into a fresh directory:
+
+```sh
+mkdir /tmp/mac24-reuse
+tar -xzf /tmp/mac24-benchmark.tar.gz -C /tmp/mac24-reuse
+cd /tmp/mac24-reuse/mac24
+python3 smoke.py
+```
+
+For the downloaded release asset, substitute its actual path for the archive
+path in the extraction command. Both archives contain a `mac24/` directory.
+The packager's historical default filename is avoided by passing an explicit
+output path above.
+
+The smoke test requires Python 3, Icarus Verilog (`iverilog`, `vvp`), and `nice`.
+It runs serially at low priority with compilation/simulation timeouts, checking
+candidate and sibling against the behavioral RTL on 4,106 deterministic vectors
+each, including carry, rounding, saturation, and unsaturated cases. It does not
+check all 38 designs and is not exhaustive proof. From the public source root,
+the equivalent command is `python3 benchmarks/mac24/smoke.py`.
 
 ## Interface
 
@@ -37,7 +55,8 @@ outputs are combinational:
 | `y[73]` | Scaled value exceeds 16777215 |
 | `y[74]` | Saturation OR sum carry-out OR any nonzero `sum[11:0]` |
 
-Instantiate `mul24_mac_replay_candidate` from `rtl/` together with `cells.v`.
+In the extracted bundle, instantiate `mul24_mac_replay_candidate` from `rtl/`
+together with `rtl/cells.v`.
 Use `mul24_mac_replay_norules` for the exact ablation. The behavioral reference
 is `reference.v`. Rounding is add-half then shift, not round-to-even. This
 contract has no signed arithmetic, variable shift, zero point, or stateful MAC.
@@ -67,9 +86,11 @@ See `evidence/` for complete tables;
 the pre-layout table includes both W=12 and W=24. These are estimates, not
 signoff or silicon measurements. New tool/library runs may change rankings.
 
-`MANIFEST.json` hashes the exported inputs and evidence. Full physical
-reproduction scripts and the original research history remain in
-https://github.com/ajhendel/arithmetic-search-case-study. The bundle
+`MANIFEST.json` hashes the exported inputs and evidence. The
+[public source repository](https://github.com/ajhendel/arithmetic-search-case-study)
+contains the physical reproduction scripts and selected research evidence.
+The original exploratory Git history remains private and is not required for
+the documented benchmark workflow. The bundle
 does not include a PDK. The local RTL follows the Apache-2.0 notice;
 the upstream optimizer
 MIT license and attribution are also included under `licenses/`.
