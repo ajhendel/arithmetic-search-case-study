@@ -64,8 +64,9 @@ compressor scheduling, or a state-of-the-art arithmetic design. Formal correctne
 of selected circuits does not establish performance superiority or novelty.
 
 Cite Andrew Hendel and the archived version using [CITATION.cff](CITATION.cff).
-The DOI and ORCID will be added when the author's identity and Zenodo deposit
-are finalized. This preparation snapshot has not been publicly released or
+The creator ORCID is [0009-0000-9877-3623](https://orcid.org/0009-0000-9877-3623),
+verified against the author's existing public mojolearn citation and Zenodo record.
+The DOI for this separate artifact will be added when its deposit is created. This preparation snapshot has not been publicly released or
 peer reviewed. See [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
 The public-facing project name is `arithmetic-search-case-study`. Historical

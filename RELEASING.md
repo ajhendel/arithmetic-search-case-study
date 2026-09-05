@@ -1,62 +1,65 @@
 # Author release procedure
 
-This is a privately staged archival release. A GitHub draft is not a public
-release, and a prepared metadata file is not a reserved DOI. No DOI has yet
-been assigned to this artifact.
+This is a privately staged archival release. No DOI has yet been assigned to
+this particular artifact. The author already has an established Zenodo account
+and active GitHub/Zenodo integrations for earlier projects.
 
-## Identity
+## Verified identity and existing records
 
-The GitHub owner is `ajhendel`; the academic creator is **Andrew Hendel**.
-Use the author's own Zenodo account, linked to the author's confirmed ORCID.
-An ORCID identifies a researcher; the Zenodo DOI identifies this deposited
-software-and-evidence version. Neither identifier is an email address.
+- GitHub owner and creator: `ajhendel`, **Andrew Hendel**.
+- ORCID: [0009-0000-9877-3623](https://orcid.org/0009-0000-9877-3623).
+- [Public mojolearn citation](https://github.com/mojolearn/mojolearn/blob/main/CITATION.cff)
+  identifies Andrew Hendel, alias ajhendel, with that ORCID.
+- [Existing mojolearn archive](https://doi.org/10.5281/zenodo.22068632) includes
+  the matching creator/ORCID in Zenodo's record metadata.
+- [Existing tinytapeout1 archive](https://doi.org/10.5281/zenodo.22261255) names
+  Andrew Hendel. Both records have the same Zenodo owner ID, 1730602.
 
-The author may use a preferred account/contact email after verifying it
-in Zenodo. It is not included in CITATION.cff or
-.zenodo.json. Review Zenodo's profile/email visibility settings independently.
-No affiliation or ORCID is inferred from a name match.
+The existing DOIs identify different artifacts. Do not reuse either DOI for this
+case study. The user's verified account email is managed on Zenodo; an email
+address is not required in public citation metadata and is not included here.
 
-## Recommended path: one manually prepared Zenodo record
+## Use the existing GitHub/Zenodo integration
 
-1. Sign in to the author's existing [Zenodo account](https://zenodo.org/) or
-   create one using ORCID/GitHub. Confirm the account email if requested.
-   Link both the author's ORCID and GitHub account in account settings.
-2. Create one new draft upload of type **Software**. Copy the title, description,
-   creator, version, keywords, and license from .zenodo.json. Add the actual
-   ORCID to the creator. Leave the draft unpublished.
-3. In the DOI field, choose that the upload does not already have a DOI and
-   reserve one with “Get a DOI now!”. A reserved DOI is not yet a public record.
-4. Insert the confirmed identifiers in both metadata formats:
+The original tinytapeout1 and mojolearn repositories already have active
+`zenodo.org` webhooks. The newly created private case-study repository does not.
+No new Zenodo account is needed.
 
-   ```sh
-   python3 scripts/set_release_identifiers.py --orcid YOUR_ORCID --doi YOUR_RESERVED_DOI
-   ```
+1. Review the curated GitHub draft release and final metadata. When ready for
+   public publication, make this curated repository public; keep the original
+   tinytapeout2 research repository private.
+2. In the author's existing Zenodo account, open the GitHub integration settings,
+   sync repositories, and enable `ajhendel/arithmetic-search-case-study`.
+   Do not create a second account for the same author or a duplicate manual deposit.
+3. Update README.md and RELEASE_NOTES.md preparation wording when publishing,
+   refresh affected manifest hashes, commit, rebuild/check the assets, and update
+   the GitHub draft release target and assets to that exact commit.
+4. Publish the reviewed `v1.0.0` GitHub release after the Zenodo integration is
+   enabled. Zenodo should archive it and issue this artifact's own DOI.
+5. Verify the Zenodo record's creator, ORCID, version, license, and uploaded
+   content. Link its DOI from GitHub and update citation metadata for subsequent
+   repository use. Use the concept DOI for the evolving software citation and
+   the version DOI for an exact archived release. Do not retag an archived version
+   merely to insert a DOI into its already-deposited source files.
+6. Once metadata and links are verified, optionally archive the GitHub repository
+   as read-only. No further experiments are required for this step.
 
-   This validates the ORCID checksum and keeps CITATION.cff, .zenodo.json,
-   and their manifest hashes consistent. It performs no account or network action.
-5. Review the exact repository and release files. Update the preparation-status
-   text in README.md and RELEASE_NOTES.md when publication actually occurs,
-   refresh the affected manifest hashes, and commit the final snapshot.
-6. Rebuild the source archive and portable benchmark from that final commit.
-   Upload the source archive, portable benchmark, and REPORT.md to the **same**
-   Zenodo draft. Include checksums; review the creator/ORCID and all public metadata.
-7. Make this curated GitHub repository public, publish the `v1.0.0` GitHub
-   release with its DOI link, and publish the reviewed Zenodo record. Check both
-   public links and the DOI resolution. Keep the original research repository private.
-8. Optionally mark this curated repository archived/read-only once release
-   metadata and links are correct. Do not archive before completing those edits.
+If a DOI is needed inside the initial source files before publication, use a
+single manual Zenodo draft and reserve its DOI instead. In that case do not also
+activate automatic ingestion for the same release. The identifier helper updates
+both metadata formats and validates the ORCID checksum:
 
-Do not also enable automatic Zenodo/GitHub archiving for this same release:
-that risks creating a second deposit for the artifact. If choosing the automatic
-integration instead, follow Zenodo's GitHub workflow and use the DOI it creates;
-do not independently publish a duplicate manual deposit.
+```sh
+python3 scripts/set_release_identifiers.py --orcid 0009-0000-9877-3623 --doi YOUR_RESERVED_DOI
+```
+
+That helper performs no account or network action.
 
 ## Documentation
 
-- [Zenodo account creation](https://help.zenodo.org/docs/get-started/create-an-account/)
-- [Creator names and ORCID](https://help.zenodo.org/docs/deposit/describe-records/creators/)
-- [Reserve a DOI](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
-- [Profile and email visibility](https://help.zenodo.org/docs/profile/changing-profile-visibility/)
+- [Enable a repository in Zenodo](https://help.zenodo.org/docs/github/enable-repository/)
+- [Archive a GitHub release](https://help.zenodo.org/docs/github/archive-software/github-upload/)
+- [Reserve a DOI for a manual draft](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
 - [CITATION.cff and .zenodo.json precedence](https://help.zenodo.org/docs/github/describe-software/citation-file/)
 
 Zenodo uses .zenodo.json when both metadata files are supplied for its GitHub

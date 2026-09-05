@@ -3953,7 +3953,7 @@
       "kind": "verbatim"
     },
     "RELEASING.md": {
-      "release_sha256": "fd6b4fd65c429067c930c0c9a0a9d30505a55cef9749a730e6fd7fa254c3f47e",
+      "release_sha256": "fe3f4bb04c1b5fec00e475fa3a4a1a3c1489df0765ab3911516532d0c664f4d0",
       "kind": "release_document"
     },
     "REPORT.md": {
@@ -3961,15 +3961,15 @@
       "kind": "release_document"
     },
     "CITATION.cff": {
-      "release_sha256": "79f64572b4a45123fbf806bbb3a71ab8bd64ac8e6199da7b6aaf81fb89aec647",
+      "release_sha256": "68337c2f1bd7b49b1efd3863a046a66c320e0f3ecd57608c95e2b56733665cdf",
       "kind": "release_document"
     },
     "VALIDATION.md": {
-      "release_sha256": "bd849ff5451cdddb5bc6d89d612e97716a9e81a500adab55828a3add5cf00c6a",
+      "release_sha256": "a3bfefb8f07920cc0a4abee6fff02af3158272a8b553ffb31959a3ca4667f01f",
       "kind": "release_document"
     },
     "README.md": {
-      "release_sha256": "92cb857b4ac8dd8a785d432befbfd3c9d619d0f11be5db879783643906b0acdc",
+      "release_sha256": "daf3912179a43cd0f59d2add2dc221e1595192ed714a587066116221a94855ea",
       "kind": "release_document"
     },
     "REPRODUCING.md": {
@@ -3989,7 +3989,7 @@
       "kind": "release_document"
     },
     ".zenodo.json": {
-      "release_sha256": "70f39f2e4fd17b48953133748657934bad2d596fdd3b05e95e8426c991b4a053",
+      "release_sha256": "7f6cabd58091b859850061e702d5e61e6f75eca32a9794a1bcb9deef8caceada",
       "kind": "release_document"
     },
     "scripts/set_release_identifiers.py": {

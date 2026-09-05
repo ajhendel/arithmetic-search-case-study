@@ -11,7 +11,8 @@ arithmetic search or physical-measurement campaign.
   Historical logs retain local directory paths for evidence provenance.
 - CFF metadata passed `cffconvert 2.0.0` validation against CFF schema 1.2.0.
   Zenodo JSON parses correctly and agrees on author, title, version, and license.
-  ORCID and DOI are deliberately absent until supplied/reserved by the author.
+  ORCID 0009-0000-9877-3623 is verified against the author's public mojolearn
+  citation and Zenodo creator record. The DOI for this separate artifact is pending.
 - The portable benchmark archive verified all 138 included content hashes.
   The release packager supports a downloaded source tree without Git metadata.
 - The original candidate/ablation smoke check passed 4,106 deterministic vectors
