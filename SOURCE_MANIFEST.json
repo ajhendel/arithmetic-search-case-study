@@ -3953,15 +3953,15 @@
       "kind": "verbatim"
     },
     "RELEASING.md": {
-      "release_sha256": "8451c5a2b40427c15993347c1cee8678c7c3310426192bb81e1cbdf821afc945",
+      "release_sha256": "b20d4d5ee6c9a2bfd879442711db02c1339a7784c44e25d4f94a5fb298509271",
       "kind": "release_document"
     },
     "REPORT.md": {
-      "release_sha256": "77458f8e9e91c47d23f2cece0bb83de53d4c916906af98105e0ebea571312bae",
+      "release_sha256": "f29e3779c484441f7b78145733184f3eeef5762595fc750b85de9f58df822410",
       "kind": "release_document"
     },
     "CITATION.cff": {
-      "release_sha256": "68337c2f1bd7b49b1efd3863a046a66c320e0f3ecd57608c95e2b56733665cdf",
+      "release_sha256": "4d1196e9c0facd682cff59208a42d968342a7f221e1a9771c0cc1cfe1feadc7e",
       "kind": "release_document"
     },
     "VALIDATION.md": {
@@ -3981,7 +3981,7 @@
       "kind": "release_document"
     },
     "RELEASE_NOTES.md": {
-      "release_sha256": "2f23b6c974f6c569d5062b41c99c54e7950cfc90b72d7ee06047cdc6f81172b4",
+      "release_sha256": "6fd64ff8c8a737100f6d16563a3b2d87965884d937f1207196018096333c49f8",
       "kind": "release_document"
     },
     "NOTICE.md": {
@@ -3989,7 +3989,7 @@
       "kind": "release_document"
     },
     ".zenodo.json": {
-      "release_sha256": "7f6cabd58091b859850061e702d5e61e6f75eca32a9794a1bcb9deef8caceada",
+      "release_sha256": "9948b2ccc8211d1e7a0e94ec37de2c3adb40c8d6b6cb0a88113d656169f3fd14",
       "kind": "release_document"
     },
     "scripts/set_release_identifiers.py": {

@@ -1,7 +1,7 @@
 # When stronger baselines remove an arithmetic-search frontier result
 
 Andrew Hendel — software and benchmark archival report, September 2026.
-Prepared for an open-source release; not peer reviewed.
+Released as an open-source archival artifact; not peer reviewed.
 
 ## Question and outcome
 

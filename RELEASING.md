@@ -1,7 +1,7 @@
 # Author release procedure
 
-The source repository is public; the archival release remains a draft. No DOI has yet been assigned to
-this particular artifact. The author already has an established Zenodo account
+The source repository is public and the Zenodo release webhook is enabled.
+Version v1.0.0 is the archival release; DOI links are filled in after processing. The author already has an established Zenodo account
 and active GitHub/Zenodo integrations for earlier projects.
 
 ## Verified identity and existing records

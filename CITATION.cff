@@ -3,6 +3,7 @@ message: "Please cite this software-and-evidence artifact and the exact archived
 type: software
 title: "Arithmetic Search Case Study: Verified MAC Benchmarks and a Negative Frontier Result"
 version: "1.0.0"
+date-released: "2026-09-05"
 authors:
   - family-names: Hendel
     given-names: Andrew
