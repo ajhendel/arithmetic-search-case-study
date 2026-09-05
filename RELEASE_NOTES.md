@@ -1,7 +1,7 @@
 # v1.0.0 — archival release
 
 Released 2026-09-05. The repository is public and its Zenodo integration is
-enabled. Zenodo assigns this artifact its own DOI when processing the release.
+enabled. Zenodo archived the release as version DOI [10.5281/zenodo.22341677](https://doi.org/10.5281/zenodo.22341677), with concept DOI [10.5281/zenodo.22341676](https://doi.org/10.5281/zenodo.22341676).
 
 This snapshot closes the evo608 candidate investigation. It retains the verified
 candidate and ablation, the stronger bounded UFO-MAC-derived controls, exact

@@ -63,11 +63,23 @@ It is not a tapeout-ready chip, a fabricated-silicon result, a claim of novel
 compressor scheduling, or a state-of-the-art arithmetic design. Formal correctness
 of selected circuits does not establish performance superiority or novelty.
 
-Cite Andrew Hendel and the archived version using [CITATION.cff](CITATION.cff).
-The creator ORCID is [0009-0000-9877-3623](https://orcid.org/0009-0000-9877-3623),
-verified against the author's existing public mojolearn citation and Zenodo record.
-The DOI for this separate artifact will be added when its deposit is created. The source repository is public; the tagged GitHub release and Zenodo
-archive are pending. This work has not been peer reviewed. See [RELEASE_NOTES.md](RELEASE_NOTES.md).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22341676.svg)](https://doi.org/10.5281/zenodo.22341676)
+
+**Cite the exact version used:** Hendel, A. (2026). *Arithmetic Search Case Study:
+Verified MAC Benchmarks and a Negative Frontier Result* (Version 1.0.0)
+[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22341677
+
+- Version 1.0.0 DOI: [10.5281/zenodo.22341677](https://doi.org/10.5281/zenodo.22341677).
+- Concept DOI (all versions): [10.5281/zenodo.22341676](https://doi.org/10.5281/zenodo.22341676).
+- Author: Andrew Hendel, [ORCID 0009-0000-9877-3623](https://orcid.org/0009-0000-9877-3623).
+- [Download the release and portable benchmark](https://github.com/ajhendel/arithmetic-search-case-study/releases/tag/v1.0.0).
+
+[CITATION.cff](CITATION.cff) supplies machine-readable citation metadata.
+Zenodo preserves the tagged source snapshot; GitHub also provides the packaged
+benchmark and report. [ARCHIVE.json](ARCHIVE.json) records the archived commit
+and identifiers. Citation links were added to the main branch after deposit;
+the archived tag and files remain fixed. This work has not been peer reviewed.
+See [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
 The public-facing project name is `arithmetic-search-case-study`. Historical
 paths and the Rust package identifier `tinytapeout2-search` remain unchanged for

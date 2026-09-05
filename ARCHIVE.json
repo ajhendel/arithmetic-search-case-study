@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "publication_date": "2026-09-05",
+  "creator": {
+    "name": "Andrew Hendel",
+    "orcid": "https://orcid.org/0009-0000-9877-3623"
+  },
+  "version_doi": "10.5281/zenodo.22341677",
+  "concept_doi": "10.5281/zenodo.22341676",
+  "zenodo_record": "https://zenodo.org/records/22341677",
+  "github_release": "https://github.com/ajhendel/arithmetic-search-case-study/releases/tag/v1.0.0",
+  "archived_git_commit": "572f33162d14ccbd101c6c2cb4c763cb7bbb1b2e",
+  "zenodo_files": [
+    {
+      "name": "ajhendel/arithmetic-search-case-study-v1.0.0.zip",
+      "size": 3857332,
+      "checksum": "md5:71ab2a58b01ba4b882af30d709654e56"
+    }
+  ],
+  "note": "Citation metadata was added to main after deposit. The v1.0.0 tag and archive remain unchanged."
+}

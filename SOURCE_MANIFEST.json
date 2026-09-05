@@ -3953,7 +3953,7 @@
       "kind": "verbatim"
     },
     "RELEASING.md": {
-      "release_sha256": "b20d4d5ee6c9a2bfd879442711db02c1339a7784c44e25d4f94a5fb298509271",
+      "release_sha256": "d1001c7eaec25d03a0946f0223a5d91f4c67b0eb782a2dc28ef5ed9d7d722f69",
       "kind": "release_document"
     },
     "REPORT.md": {
@@ -3961,7 +3961,7 @@
       "kind": "release_document"
     },
     "CITATION.cff": {
-      "release_sha256": "4d1196e9c0facd682cff59208a42d968342a7f221e1a9771c0cc1cfe1feadc7e",
+      "release_sha256": "643bfe8d7294e4e39196e5d5b619ed896bf7efcd01ba40a1ad933a3cf14011b3",
       "kind": "release_document"
     },
     "VALIDATION.md": {
@@ -3969,7 +3969,7 @@
       "kind": "release_document"
     },
     "README.md": {
-      "release_sha256": "85bace726ee0f490cdfc3b31cab3c9363fea9b1afe7a67f43c3d7307956bfebd",
+      "release_sha256": "e6d31e7b3ac57ded07786a9e70e8c54add0af7f1627321a1e2f0566cf79c1fd6",
       "kind": "release_document"
     },
     "REPRODUCING.md": {
@@ -3981,7 +3981,7 @@
       "kind": "release_document"
     },
     "RELEASE_NOTES.md": {
-      "release_sha256": "6fd64ff8c8a737100f6d16563a3b2d87965884d937f1207196018096333c49f8",
+      "release_sha256": "2022b6005102ca9f8b6a871a21b30e7e11e134ac1ff5efa51126914923a213d2",
       "kind": "release_document"
     },
     "NOTICE.md": {
@@ -3995,6 +3995,10 @@
     "scripts/set_release_identifiers.py": {
       "release_sha256": "6c7da63482bad0fb926f4855562bfe1c3ac8f0c2ee62b3157a5738cf67949391",
       "kind": "release_document"
+    },
+    "ARCHIVE.json": {
+      "kind": "release_document",
+      "release_sha256": "52777bec63a353741e1122d02d5278bc8a87c92aeec88ee64736cba600fe9075"
     }
   }
 }
