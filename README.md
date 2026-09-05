@@ -66,8 +66,8 @@ of selected circuits does not establish performance superiority or novelty.
 Cite Andrew Hendel and the archived version using [CITATION.cff](CITATION.cff).
 The creator ORCID is [0009-0000-9877-3623](https://orcid.org/0009-0000-9877-3623),
 verified against the author's existing public mojolearn citation and Zenodo record.
-The DOI for this separate artifact will be added when its deposit is created. This preparation snapshot has not been publicly released or
-peer reviewed. See [RELEASE_NOTES.md](RELEASE_NOTES.md).
+The DOI for this separate artifact will be added when its deposit is created. The source repository is public; the tagged GitHub release and Zenodo
+archive are pending. This work has not been peer reviewed. See [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
 The public-facing project name is `arithmetic-search-case-study`. Historical
 paths and the Rust package identifier `tinytapeout2-search` remain unchanged for

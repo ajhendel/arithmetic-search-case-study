@@ -1,6 +1,6 @@
 # Author release procedure
 
-This is a privately staged archival release. No DOI has yet been assigned to
+The source repository is public; the archival release remains a draft. No DOI has yet been assigned to
 this particular artifact. The author already has an established Zenodo account
 and active GitHub/Zenodo integrations for earlier projects.
 
@@ -22,12 +22,11 @@ address is not required in public citation metadata and is not included here.
 ## Use the existing GitHub/Zenodo integration
 
 The original tinytapeout1 and mojolearn repositories already have active
-`zenodo.org` webhooks. The newly created private case-study repository does not.
+`zenodo.org` webhooks. The new case-study repository needs its own integration enabled.
 No new Zenodo account is needed.
 
-1. Review the curated GitHub draft release and final metadata. When ready for
-   public publication, make this curated repository public; keep the original
-   tinytapeout2 research repository private.
+1. Review the curated GitHub draft release and final metadata. This curated
+   repository is public; keep the original tinytapeout2 research repository private.
 2. In the author's existing Zenodo account, open the GitHub integration settings,
    sync repositories, and enable `ajhendel/arithmetic-search-case-study`.
    Do not create a second account for the same author or a duplicate manual deposit.

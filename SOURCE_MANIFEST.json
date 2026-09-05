@@ -3953,7 +3953,7 @@
       "kind": "verbatim"
     },
     "RELEASING.md": {
-      "release_sha256": "fe3f4bb04c1b5fec00e475fa3a4a1a3c1489df0765ab3911516532d0c664f4d0",
+      "release_sha256": "8451c5a2b40427c15993347c1cee8678c7c3310426192bb81e1cbdf821afc945",
       "kind": "release_document"
     },
     "REPORT.md": {
@@ -3969,7 +3969,7 @@
       "kind": "release_document"
     },
     "README.md": {
-      "release_sha256": "daf3912179a43cd0f59d2add2dc221e1595192ed714a587066116221a94855ea",
+      "release_sha256": "85bace726ee0f490cdfc3b31cab3c9363fea9b1afe7a67f43c3d7307956bfebd",
       "kind": "release_document"
     },
     "REPRODUCING.md": {
@@ -3981,7 +3981,7 @@
       "kind": "release_document"
     },
     "RELEASE_NOTES.md": {
-      "release_sha256": "ccc7d5a52b88af413cae55a8269597f28eb8ddfa7fa1618d927dafad0feb37b4",
+      "release_sha256": "2f23b6c974f6c569d5062b41c99c54e7950cfc90b72d7ee06047cdc6f81172b4",
       "kind": "release_document"
     },
     "NOTICE.md": {
